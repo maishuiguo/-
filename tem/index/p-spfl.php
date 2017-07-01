@@ -26,30 +26,30 @@
 </div>
 <div style="height: 50px;width: 100%"></div>
 <div class="list">
-    <div class="box">
+    <a href="p-list.php"><div class="box">
         <img src="../../static/img/p-f1_03.png" alt="">
         <p>#营养搭配</p>
         <p>weinindeshenghuobaojiahuhang</p>
         <div class="num">1.</div>
-    </div>
-    <div class="box">
+    </div></a>
+    <a href="p-list.php"> <div class="box">
         <img src="../../static/img/p-f2_03.png" alt="">
         <p>#所有商品</p>
         <p>suoyoushangpingkjssadv</p>
         <div class="num">2.</div>
-    </div>
-    <div class="box">
+        </div></a>
+        <a href="p-list.php"> <div class="box">
         <img src="../../static/img/p-f3_03.png" alt="">
         <p>#热带水果</p>
         <p>redaishuiguozhenhaochi</p>
         <div class="num">3.</div>
     </div>
-    <div class="box">
+            <a href="p-list.php"><div class="box">
         <img src="../../static/img/p-f4_03.png" alt="">
         <p>#进口水果</p>
         <p>jinkoushuiguobuzai</p>
         <div class="num">4.</div>
-    </div>
+                </div></a>
 </div>
 </body>
 </html>
