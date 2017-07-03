@@ -1,11 +1,15 @@
 /*头部*/
+body{
+    background: #F2F2F2;
+}
 header{
     width:100%;
     height:1rem;
     background:#fe464e;
-    position:fixed;
+    position:absolute;
     top:0;
     left:0;
+    z-index:2;
 }
 header a{
     width:0.48rem;
@@ -63,18 +67,29 @@ header .yzf-font1 .yzf-font2{
     font-size:0.24rem;
     font-family: "Tahoma";
     position:absolute;
-    bottom:-0.3rem;
     left:-0.2rem;
+    bottom:-0.3rem;
 }
+.scrolls{
+    position: absolute;
+    width:100%;
+    top:1rem;
+    bottom: 0.98rem;
+    left:0;
+    overflow: hidden;
+}
+/*.scrolls .zhuti{*/
+    /*height:1500px;*/
+/*}*/
+
 /*轮播*/
-.swiper-container {
+.swiper1 {
     width: 100%;
     height: 4.6rem;
-    margin-top:1rem;
 }
 .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size:0.18rem;
     background: #fff;
 }
 .swiper-slide img{
@@ -104,10 +119,13 @@ header .yzf-font1 .yzf-font2{
 .yzf-tjtitle section{
     width:2.5rem;
     height:0.66rem;
-    background:#fe464e;
+
     border-radius: 0.3rem;
     text-align: center;
     position:relative;
+}
+.yzf-tjtitle section.active{
+    background:#fe464e;
 }
 .yzf-tjtitle section > span{
     background:#fff;
@@ -151,6 +169,31 @@ header .yzf-font1 .yzf-font2{
     width:100%;
     height:3.2rem;
     margin-top:0.25rem;
+    position:relative;
+}
+.yzf-tione{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+/*.swiper-container2 {*/
+    /*width: 100%;*/
+    /*height:100%;*/
+/*}*/
+/*.swiper-slide {*/
+    /*text-align: center;*/
+    /*font-size: 18px;*/
+    /*background: #fff;*/
+/*}*/
+.yzf-titwo{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0;
 }
 .yzf-tjcon section{
     width:33.33%;
@@ -176,12 +219,13 @@ header .yzf-font1 .yzf-font2{
 }
 .yzf-tjcon section .yzf-bj .yzf-list img{
     width:100%;
+    height:1.87rem;
+    display: block;
 }
 .yzf-tjcon section .yzf-bj .yzf-list p{
     font-size:0.26rem;
     font-weight: bold;
     color:#585858;
-    margin-top:-0.22rem;
     letter-spacing: 2px;
 }
 .yzf-tjcon section .yzf-bj .yzf-list > span{
@@ -208,17 +252,19 @@ footer{
     height:0.98rem;
     display: flex;
     justify-content: space-around;
-    position:fixed;
+    position:absolute;
     bottom:0;
     left:0;
 }
 footer div{
     width:25%;
     height:100%;
-    border-right:1px solid #ccc;
     box-sizing: border-box;
     text-align: center;
     background:#2f2728;
+}
+footer div:first-child{
+    background:#fe464e;
 }
 footer div img{
     width:0.58rem;
@@ -235,42 +281,82 @@ footer div p{
     font-size:0.2rem;
 }
 /*热卖板块*/
-.yzf-hot{
-    width:3.6rem;
-    height:0.95rem;
-    text-align: center;
-    margin:0.3rem auto 0 auto;
+/*.yzf-hot{*/
+    /*height:692px;*/
+/*}*/
+.biao img{
+    width: 100%;
+    display: block;
 }
-.yzf-hot div:first-child{
-    width:3.2rem;
-    height:0.45rem;
-    font-size: 0.24rem;
-    text-align: center;
-    margin:0 auto;
+.list{
+    width: 7.1rem;
+    height:151px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-image: url("../img/p-bg.png");
+    background-size: 100%;
+    padding: 0.14rem;
+    box-sizing: border-box;
+    margin-bottom: 0.12rem;
+}
+.list .left{
+    width: 2.36rem;
+    height: 100%;
+    background: #51C7E5;
+    float: left;
+    border-radius: 10px;
+}
+.list .right p:nth-of-type(1){
     font-size: 0.3rem;
-    font-family: "Tahoma";
-    color:#41404b;
-    position:relative;
+}.list .right p:nth-of-type(2){
+     font-size: 0.26rem;
+     color: #585858;
+ }.list .right p:nth-of-type(3){
+      font-size: 0.24rem;color: #7f7e7e;
+  }
+.list .right{
+    padding-left: 0.4rem;
+    box-sizing: border-box;
+    float: left;
+    width: 4.3rem;
 }
-.yzf-hot div:first-child p{
-    display: block;
-    width:2.4rem;
-    height:0.45rem;
-    border-bottom:2px solid #f89ca0;
-    position:absolute;
-    top:0;
-    left:0.4rem;
+.list .right .one{
+    width: 50%;
+    height: 1rem;
+    float: left;
+    margin-top: 0.35rem;
+    color: #7b7885;
+    font-size: 0.3rem;
 }
-.yzf-hot div:nth-child(2){
-    font-size:0.3rem;
-    color:#41404b;
-    font-family:"[PingFang]";
-    font-weight: bold;
+.list .right .two{
+    width: 50%;
+    height: 1rem;
+    float: left;
+    margin-top: 0.35rem;
 }
-.yzf-hot div:nth-child(2) img{
-    float:left;
+.list .right .one img{
+    width: 0.35rem;
+    margin-top: .27rem;
+    margin-left: .2rem;
 }
-.yzf-hot div:nth-child(2) p{
-    display: block;
-    float:left;
+.list .right .two p{
+    font-size: 0.2rem;
+    float: left;
+    margin-left: 0.2rem;
+}
+.list .right .two p b{
+    font-size: 0.34rem;
+    color: #fe464e;
+}
+.list .right .two .buy{
+    width: 1.5rem;
+    height: 0.45rem;
+    border-radius: 20px;
+    background: #fe464e;
+    font-size: 0.18rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.45rem;
+    margin-top: 0.52rem;
+    margin-left: 0.2rem;
 }
