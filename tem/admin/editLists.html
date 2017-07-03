@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_PATH}/bootstrap.min.css">
+</head>
+<body>
+
+
+
+<form action="index.php?m=admin&f=lists&a=editStatus" method="post">
+    <input type="hidden" name="sid" value="{$sid}">
+    <input type="hidden" name="mid" value="{$mid}">
+    未审核：<input type="radio" name="status" value="0" {if $status==0} checked {/if} ><br>
+    审核中：<input type="radio" name="status" value="1" {if $status==1} checked {/if}><br>
+    通过：<input type="radio" name="status" value="2" {if $status==2} checked {/if}><br>
+    精华：<input type="radio" name="status" value="3" {if $status==3} checked {/if}><br>
+    违规：<input type="radio" name="status" value="4" {if $status==4} checked {/if}><br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
