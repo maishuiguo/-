@@ -1,6 +1,4 @@
-body{
-    background: #eaeaea;
-}
+
 .top{
     width: 100%;
     height: 0.98rem;
@@ -24,19 +22,35 @@ body{
 .banner{
     width: 100%;
     height: 3.9rem;
+    position: relative;
 }
-.banner img{
+.banner ul{
+    width: 400%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+    overflow: hidden;
+}
+.banner li{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.banner img.tiao{
     width: 4.25rem;
     position: absolute;
     left: 0;
-    top:3.45rem;
+    top:2.45rem;
+    z-index: 1;
 }
 .banner p.one{
     position: absolute;
     left: 0.2rem;
-    top:3.5rem;
+    top:2.5rem;
     color: #fff;
     font-size: 0.3rem;
+    z-index: 1;
 }
 .banner .jianjie{
     width: 4.5rem;
@@ -44,10 +58,11 @@ body{
     background: #f7353e;
     position: absolute;
     right:0.15rem;
-    top: 3.96rem;
+    top: 2.96rem;
     padding-left:0.15rem;
     padding-right: 0.15rem;
     box-sizing: border-box;
+    z-index: 1;
 }
 .jianjie p{
     color: #fff;
@@ -112,7 +127,7 @@ body{
 }
 .pinglun ul li b:nth-of-type(1){
     font-size: 0.24rem;
-position: absolute;
+    position: absolute;
     left: 0.15rem;
     top: -0.05rem;
 }
@@ -147,12 +162,15 @@ position: absolute;
 }
 .tuijian{
     width: 100%;
-    height:5.2rem;
+    height:5.12rem;
     background: #eaeaea;
     display: flex;
     justify-content: space-around;
     position: relative;
     flex-wrap: wrap;
+}
+body{
+    background: #eaeaea;;
 }
 .tuijian .list{
     width: 2.23rem;
@@ -165,9 +183,10 @@ position: absolute;
     width: 100%;
     height:0.98rem;
     background: #2f2728;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
+    z-index: 3;
 }
 .hong{
     width: 100%;
@@ -271,8 +290,8 @@ position: absolute;
 #wrapper {
     position: absolute;
     z-index: 1;
-    top: 45px;
-    bottom: 48px;
+    top: 0.98rem;
+    bottom: 6rem;
     left: 0;
     width: 100%;
     height: 18.8rem;
@@ -280,24 +299,8 @@ position: absolute;
     overflow: hidden;
 }
 
-#scroller {
-    position: absolute;
-    z-index: 1;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+.swiper-container {
     width: 100%;
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-text-size-adjust: none;
-    -moz-text-size-adjust: none;
-    -ms-text-size-adjust: none;
-    -o-text-size-adjust: none;
-    text-size-adjust: none;
+    height: 100%;
 }
