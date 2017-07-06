@@ -37,7 +37,6 @@ class login extends main{
           $mpass=md5($_POST["pass"]);
           $dbobj=new db("user");
           $result=$dbobj->select();
-
           foreach ($result as $v){
               if($v["uname"]==$mname){
                   if($v["upass"]==$mpass){

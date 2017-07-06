@@ -17,4 +17,8 @@ class category extends main{
             $this->jump("添加成功","index.php?m=admin&f=category&a=add");
         }
     }
+
+    function edit(){
+        $this->smarty->display("editCategory.html");
+    }
 }

@@ -60,7 +60,6 @@ iframe{
         {if $rid==1}
     <li>
     <a href="javascript:;">用户管理</a>
-
         <ul>
         <li>
         <a href="index.php?m=admin&f=user&a=add" target="iframe">添加用户</a>
@@ -73,32 +72,9 @@ iframe{
     </li>
         {/if}
 
-        <li>
-            <a href="javascript:;">角色管理</a>
-            <ul>
-                <li>
-                    <a href="index.php?m=admin&f=role&a=add" target="iframe">添加角色</a>
-                </li>
-
-                <li>
-                    <a href="showCategory.php" target="iframe">查看角色</a>
-                </li>
-            </ul>
-        </li>
 
 
-    <li>
-    <a href="javascript:;">会员管理</a>
-    <ul>
-    <li>
-    <a href="addCon.php" target="iframe">添加内容</a>
-    </li>
 
-    <li>
-    <a href="index.php?m=admin&f=member&a=show" target="iframe">查看会员</a>
-    </li>
-    </ul>
-    </li>
 
 
 
@@ -110,7 +86,7 @@ iframe{
     </li>
 
     <li>
-    <a href="showPos.php" target="iframe">查看位置</a>
+    <a href="index.php?m=admin&f=category&a=edit" target="iframe">管理分类</a>
     </li>
     </ul>
     </li>
@@ -120,11 +96,10 @@ iframe{
             <a href="javascript:;">内容管理</a>
             <ul>
                 <li>
-                    <a href="index.php?m=admin&f=category&a=add" target="iframe">添加内容</a>
+                    <a href="index.php?m=admin&f=content&a=add" target="iframe">添加内容</a>
                 </li>
-
                 <li>
-                    <a href="index.php?m=admin&f=lists&a=add" target="iframe">查看内容</a>
+                    <a href="index.php?m=admin&f=content&a=editcon" target="iframe">查看内容</a>
                 </li>
             </ul>
         </li>
