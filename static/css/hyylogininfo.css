@@ -1,0 +1,70 @@
+html,body{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background-image:url("../img/hyyloginback.png");
+    background-size:100%;
+}
+nav{
+    height:0.88rem;
+    width:96%;
+    margin:0 auto;
+}
+nav a {
+    color: #fff;
+    font-family: "宋体";
+    font-size: 0.5rem;
+    display: block;
+    line-height: 0.88rem;
+}
+.login{
+    position: absolute;
+    top:1.4rem;
+    left:50%;
+    margin-left:-1.3rem;
+    height:2.36rem;
+    width:2.6rem;
+ }
+.login img{
+    width:100%;
+}
+.loginword{
+    position: absolute;
+    height:0.99rem;
+    width:3.22rem;
+    top:3.84rem;
+    left:50%;
+    margin-left:-1.62rem;
+}
+.loginword img{
+    width:100%;
+}
+.loginbtn,.regbtn{
+    height:0.9rem;
+    width:4rem;
+    border-radius:0.6rem;
+    background: #fff;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.4);
+    font-size: 0.4rem;
+    text-align: center;
+    line-height: 0.9rem;
+    color:#495558;
+    position: absolute;
+    top:6.24rem;
+    left:50%;
+    margin-left:-2rem;
+}
+.regbtn{
+    top:7.4rem;
+}
+.loginphone{
+    height:0.11rem;
+    width:2.62rem;
+    position: absolute;
+    top:8.65rem;
+    left:50%;
+    margin-left:-1.3rem;
+}
+.loginphone img{
+    width:100%;
+}

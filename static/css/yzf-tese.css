@@ -1,0 +1,144 @@
+/*头部*/
+body{
+    background-image:url("../../static/img/yzf-banner.png");
+    background-size:100%;
+}
+header{
+    width:100%;
+    height:1rem;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
+header img{
+    width:0.48rem;
+    height:0.49rem;
+    margin:0.25rem auto auto 0.4rem;
+    float:left;
+}
+header .yzf-font1{
+    width:2rem;
+    height:0.7rem;
+    margin:0.03rem auto;
+    text-align:center;
+    line-height: 0.7rem;
+    position:relative;
+}
+header .yzf-font1 p{
+    font-size:0.28rem;
+    color:#fff;
+    font-family:"宋体";
+    font-weight: bold;
+}
+header .yzf-font1 span{
+    background:#fff;
+    display: block;
+    width:0.1rem;
+    height:0.1rem;
+    border-radius: 50%;
+}
+header .yzf-font1 span:first-child{
+    float:left;
+    margin:0.3rem auto 0.3rem 0.1rem;
+}
+header .yzf-font1 span:nth-child(2){
+    float:right;
+    margin:0.3rem 0.1rem 0.3rem auto;
+}
+header .yzf-font1 .yzf-font2{
+    display: block;
+    width:3.6rem;
+    font-size:0.24rem;
+    font-family: "Tahoma";
+    position:absolute;
+    left:-0.8rem;
+    bottom:-0.3rem;
+}
+/*iscroll滑动*/
+.scrolls{
+    position: absolute;
+    width:100%;
+    top:1rem;
+    bottom: 0.98rem;
+    left:0;
+    overflow: hidden;
+}
+/*标题*/
+.yzf-title{
+    width:5.45rem;
+    height:1.25rem;
+    position:absolute;
+    top:5.5rem;
+    left:1rem;
+    color:#fff;
+}
+.yzf-title h3{
+    font-size:0.36rem;
+    font-family:"微软雅黑";
+}
+.yzf-title p.yzf-one{
+    font-size:0.24rem;
+    font-family:"微软雅黑";
+}
+.yzf-title p.yzf-two{
+    font-size:0.18rem;
+    font-family:"微软雅黑";
+}
+.yzf-title .yzf-img{
+    width:2.58rem;
+    height:0.05rem;
+    background-image:url("../../static/img/dapei_07.png");
+    background-size: 100%;
+    margin:0.05rem 0;
+}
+/*内容*/
+.yzf-con{
+    width:5.7rem;
+    height:3.93rem;
+    padding-top:0.8rem;
+    padding-left:0.5rem;
+    background-image:url("../../static/img/dapeibj_03.png");
+    background-size:100%;
+    position:absolute;
+    top:7.2rem;
+    left:0.7rem;
+    color:#000;
+}
+.yzf-con h3{
+    font-size:0.3rem;
+    font-family:"微软雅黑";
+}
+.yzf-con h4{
+    font-size:0.3rem;
+    font-family:"微软雅黑";
+    font-weight:bold;
+}
+.yzf-con .yzf-xing{
+    width:2rem;
+    display: flex;
+    justify-content: space-around;
+    height:auto;
+    position:absolute;
+    top:0.85rem;
+    right:1rem;
+}
+.yzf-con .yzf-xing span{
+    display: block;
+    width:0.2rem;
+    height:0.2rem;
+    color:yellow;
+}
+.yzf-con p{
+    float:left;
+    margin-top:0.2rem;
+    font-size:0.24rem;
+    font-family:"微软雅黑";
+    font-weight: bold;
+}
+.yzf-con p.yzf-xinxi{
+    display: block;
+    width:90%;
+    height:auto;
+    text-align: right;
+}

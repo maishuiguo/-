@@ -1,0 +1,130 @@
+html,body{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background-image:url("../img/hyyloginback.png");
+    background-size:100%;
+}
+nav{
+    height:0.88rem;
+    width:96%;
+    margin:0 auto;
+}
+nav a {
+    color: #fff;
+    font-family: "宋体";
+    font-size: 0.5rem;
+    display: block;
+    line-height: 0.88rem;
+}
+.login{
+    margin:0 auto;
+    height:2.36rem;
+    width:2.6rem;
+}
+.login img{
+    width:100%;
+}
+.loginword{
+    margin:0 auto;
+    margin-top:0.08rem;
+    height:1.69rem;
+    width:3.22rem;
+}
+.loginword img{
+    width:100%;
+}
+.loginbtn{
+    height:0.9rem;
+    width:4rem;
+    border-radius:0.6rem;
+    background: #fff;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.4);
+    font-size: 0.4rem;
+    margin:0 auto;
+    margin-top:0.9rem;
+    text-align: center;
+    line-height: 0.9rem;
+    color:#495558;
+}
+.input{
+    height:2.5rem;
+    width:6rem;
+    margin:0 auto;
+    margin-top:0.5rem;
+    background: #fff;
+    border-radius: 0.4rem;
+    padding:0.2rem;
+    box-sizing: border-box;
+}
+
+.input .label{
+    height:1.08rem;
+    width:100%;
+    position: relative;
+}
+
+.input .label .user{
+    height:100%;
+    width:66%;
+    border:none;
+    display: block;
+    padding-left: 1.8rem;
+    outline: none;
+    font-size: 0.32rem;
+}
+.input p{
+    height:1px;
+    width:100%;
+    background: #ccc;
+}
+.input .label .pass{
+    height:95%;
+    width:50%;
+    border:none;
+    display: block;
+    padding-left: 0.3rem;
+    outline: none;
+    font-size: 0.32rem;
+    margin-left: 0.3rem;
+    position:absolute;
+    right:0.2rem;top:0.1rem;
+    border-left: 1px solid #D9D9D9;
+}
+.input span{
+    position:absolute;
+    left:0.2rem;top:0.1rem;
+    color:#525E61;
+    font-size:0.32rem;
+    font-weight: bold;
+    display: block;
+    height:100%;
+    width:30%;
+}
+.input .tap{
+    top:0.3rem;
+    height:60%;
+    width:30%;
+    border:1px solid #D9D9D9;
+    line-height: 0.55rem;
+    border-radius: 6px;
+    box-shadow: 0 0 0.03rem 1px rgba(0,0,0.3);
+}
+.input span.back{
+    background:orange;
+    color:#fff;
+}
+.input span.mi{
+    left:0.26rem;
+}
+.input span.first{
+    left:0.2rem;
+    top:0.55rem;
+    font-weight:500;
+    font-size:0.3rem;
+}
+.input .label .pass::-webkit-input-placeholder,.input .label .user::-webkit-input-placeholder{
+    color:#c1c1c1;
+    font-size:0.24rem;
+}
+

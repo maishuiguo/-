@@ -32,8 +32,7 @@ header a img{
 header .yzf-font1{
     width:1.6rem;
     height:0.7rem;
-    float:left;
-    margin:0.03rem auto 0.2rem 2.15rem;
+    margin:0.03rem auto;
     text-align:center;
     line-height: 0.7rem;
     position:relative;
