@@ -18,8 +18,9 @@
     <link rel="stylesheet" href="../../static/css/p-show.css">
     <link rel="stylesheet" href="../../static/css/swiper.min.css">
     <script src="../../static/js/iscroll.js"></script>
-    <script src="../../static/js/common.js"></script>
     <script src="../../static/js/swiper.min.js"></script>
+    <script src="../../static/js/angular.js"></script>
+    <script src="../../static/js/common.js"></script>
     <script src="../../static/js/p-show.js"></script>
 </head>
 <body>
@@ -138,12 +139,12 @@
             </div>
         </div>
     </div>
-    </div >
+</div >
 <div class="bottom">
-    <div class="box">
-        <img src="../../static/img/p-jian.png">
-        <b>0</b>
-        <img src="../../static/img/p-jia.png">
+    <div class="box" ng-app="" ng-init="num=0">
+        <img ng-click="num<=0?num=0:num=num-1" src="../../static/img/p-jian.png">
+        <b>{{num}}</b>
+        <img ng-click="num=num+1" src="../../static/img/p-jia.png">
     </div>
     <div class="box">
         <button class="one">

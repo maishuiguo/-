@@ -9,6 +9,24 @@ body{
     box-sizing: border-box;
     position:fixed;
 }
+
+.top span{
+    background:#fff;
+    display: block;
+    width:0.1rem;
+    height:0.1rem;
+    border-radius: 50%;
+}
+.top span:first-child{
+    float:left;
+    margin-left: 164px;
+    margin-top:10px;
+}
+.top span:nth-child(2){
+    float:right;
+    margin-right:164px;
+    margin-top:10px ;
+}
 .top p{
     width: 100%;
     text-align: center;
@@ -18,7 +36,7 @@ body{
     position: absolute;
     left: 12px;
     top:11px;
-    width: 25px;
+    width: 27px;
 }
 .biao img{
     width: 100%;
