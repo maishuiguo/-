@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../static/js/common.js"></script>
+    <script src="../../static/js/iscroll.js"></script>
+
+    <link rel="stylesheet" href="../../static/css/zcy-pay.css">
+
+</head>
+<style>
+    #wrapper{
+        position:absolute;
+        top: 0;
+        bottom: 0;
+        left:0;
+        width: 100%;
+        overflow: hidden;
+    }
+    #scroller{
+        position: absolute;
+        width: 100%;
+    }
+</style>
+<body>
+<div class="top">
+    <div class="title">
+        <p>·订单·</p>
+        <p>WODEDINAN</p>
+        <div></div>
+    </div>
+</div>
+<div id="wrapper">
+    <div id="scroller">
+        <div class="con">
+            <div class="line"></div>
+        </div>
+        <div class="mid">
+            <img src="../../static/img/zcy-img/1.png" alt="">
+            <div class="money">
+                <!--<div class="youhui">-->
+                    <!--<p class="five">-5.00</p>-->
+                    <!--<p class="uuu">优惠券</p>-->
+                <!--</div>-->
+                <span class="eight">83.40</span>
+            </div>
+        </div>
+
+        <div class="wuliu">
+            <div class="ll">
+                <img src="../../static/img/zcy-img/7.jpg" alt="">
+            </div>
+            <ul class="rr">
+                <li><img src="../../static/img/zcy-img/2.png" alt=""></li>
+                <li><img src="../../static/img/zcy-img/3.png" alt=""></li>
+                <li><img src="../../static/img/zcy-img/4.png" alt=""></li>
+                <li><img src="../../static/img/zcy-img/5.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="buy">
+            <a href=""><img src="../../static/img/zcy-img/6.png" alt=""></a>
+        </div>
+    </div>
+</div>
+
+<script>
+    window.onload=function () {
+        var myScroll = new IScroll('#wrapper', {
+            mouseWheel: true,
+            scrollbars: false,
+            click:true,
+        });
+    }
+</script>
+</body>
+</html>
