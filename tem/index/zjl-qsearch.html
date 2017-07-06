@@ -182,20 +182,21 @@
 		</div>
 		<div class='zhe'></div>
 		
-	</body>	
+	</body>
+	<script>
+        var input=document.querySelector('input');
+        var zhe=document.querySelector(".zhe")
+        document.body.onclick=function(e){
+            var obj=e.target;
+            if(obj.className=='sousuo'||obj.nodeName=='INPUT'){
+
+                zhe.style.display="block";
+            }else{
+                zhe.style.display="none";
+            }
+
+        }
+
+	</script>
 </html>
-<script>
-var input=document.querySelector('input');
-var zhe=document.querySelector(".zhe")
-document.body.onclick=function(e){
-	var obj=e.target;
-	if(obj.className=='sousuo'||obj.nodeName=='INPUT'){
 
-		zhe.style.display="block";
-	}else{
-		zhe.style.display="none";
-	}
-
-}
-
-</script>
