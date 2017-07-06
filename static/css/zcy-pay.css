@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #f2f2f2;
+}
+.top{
+    width:100%;
+    height:3.4rem;
+    background: #FE464E;
+}
+.title{
+    width: 100%;
+    background: #FE464E;
+    position: fixed;
+    top:0;
+    z-index: 2;
+}
+.title>p{
+    text-align: center;color:#fff;font-size: .3rem;
+}
+.title>p:first-child{
+    height:.5rem;line-height: .6rem;
+}
+.title>div{
+    width:6rem;height:.15rem;
+    background:#EC242D;
+    border-radius: .15rem;
+    margin:.3rem auto 0;
+}
+.con{
+    width:5.5rem;height:5.6rem;background: #fff;
+    border-radius: .1rem;
+    margin:1.27rem auto 0;
+    position: relative;
+}
+.line{
+    width:100%;
+    height:.15rem;
+    background: #FFC21C;
+    position:absolute;
+    bottom: 0;
+}
+.mid{
+    width:100%;height:auto;margin:0 0 1rem;
+    text-align: center;
+}
+/*.money{*/
+
+/*}*/
+/*.youhui{*/
+    /*display: inline-block;*/
+    /*overflow: hidden;*/
+
+/*}*/
+/*.five{*/
+    /*font-size: .2rem;color:#FC1939;*/
+/*}*/
+/*.uuu{*/
+    /*font-size: .3rem;color:#FFF;*/
+    /*background: #FFC21C;*/
+    /*padding:.05rem .2rem;border-radius: .4rem;*/
+/*}*/
+.eight{
+    font-size: .9rem;color:#FC1939;font-weight: 600;
+
+}
+.wuliu{
+    width: 100%;
+    height:9rem;
+    background: #ffF;
+    display: flex;
+
+}
+.ll{
+    width:13%;
+    height:100%;
+}
+.rr{
+    width:87%;
+    height:100%;
+}
+.rr>li{
+    height:1.65rem;
+}
+
+
+
+
+
+
+
+
+.buy{
+    background: #1EAA4C;text-align: center;
+    margin-top: .2rem;
+}
