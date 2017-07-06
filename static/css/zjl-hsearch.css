@@ -1,0 +1,187 @@
+.con{
+	width:100%;
+	height:0.6rem;
+}
+.con>.title{
+	width:7.02rem;
+	height:0.6rem;
+	margin: 0.2rem auto;
+	border-bottom: 0.01rem solid #6E7685;
+}
+.con>.title>img{
+	width:2.8rem;
+	float:left;
+}
+.con>.title>span{
+	font-size:0.25rem;
+	color:#FE464E;
+	float:right;
+	margin-top: 0.25rem;
+}
+.picture{
+	width:7.02rem;
+	height:2.3rem;
+	margin: 0.26rem auto;
+}
+.picture>.left{
+	width:2.52rem;;
+	height:100%;
+	float:left;
+}
+.picture>.left>img{
+	width:100%;
+	height:100%;
+	float:left;
+}
+.picture>.right{
+	width:4.3rem;
+	height:100%;
+	float:left;
+	margin-left: 0.2rem;	
+}
+.picture>.right>li{
+	width:100%;
+	height:1.1rem;
+}
+.picture>.right>li>img{
+	height:100%;
+	float:left;
+}
+.picture>.right>li>img:nth-child(2){
+	margin-left: 0.08rem;
+}
+.picture>.right>.xia{
+	margin-top: 0.1rem;
+}
+.result{
+	width:100%;
+	height:auto;
+}
+.result .list{
+	width:7.02rem;
+	height:3.04rem;
+	background-image: url("../img/zjl-bj.png");
+	background-size: cover;
+	margin: 0 auto;
+	margin-top:0.2rem;
+}
+.result .list>.left{
+	width:2.36rem;
+	height:2.76rem;
+	float:left;
+}
+.result .list>.left>img{
+	width:100%;
+	height:100%;
+	margin-top: 0.14rem;
+	margin-left: 0.16rem;
+	float:left;
+}
+.result .list>.right{
+	width:3.88rem;
+	float:left;
+	margin-left: 0.5rem;
+	margin-top: 0.4rem;
+}
+.list>.right>.zi{
+	width:100%;
+	height:1.42rem;
+	
+}
+.list>.right>.zi>span{
+	font-size: 0.2rem;
+	display: block;
+	height:0.26rem;
+	width:auto;
+	color:#42404B;
+}
+.list>.right>.zi>span:first-child{
+	font-weight: bold;
+	color:#40404A;
+	float:left;
+}
+.list>.right>.zi>p{
+	font-family: "微软雅黑";
+	font-size: 0.1rem;
+	color:#585858;	
+	line-height: 0.3rem;
+	margin-top: 0.05rem;
+	font-weight: bold;
+}
+.list>.right>.zi>.duan{
+	color:#7D7D7D;
+	margin-top: 0.08rem;
+}
+.list>.right>.xia{
+	width:100%;
+	height:1.2rem;
+}
+.list>.right>.xia>.left{
+	width:0.9rem;
+	height:0.35rem;
+	float:left;
+	margin-top: 0.1rem;
+}
+.list>.right>.xia>.left>img{
+	width:0.4rem;
+	float:left;
+}
+.list>.right>.xia>.left>span{
+	font-size:0.16rem;
+	float:left;
+	margin-top: 0.03rem;
+	color:#7B7885;
+	margin-left:0.03rem;
+	
+}
+.list>.right>.xia>.right{
+	float:right;
+	margin-top: 0.2rem;
+	width:1.5rem;
+	height:0.94rem;
+}
+.list>.right>.xia>.right>.money{
+	width:1.3rem;
+	height:0.3rem;
+	/*background:red;*/
+}
+.list>.right>.xia>.right>.money>span:first-child{
+	font-size:0.16rem;
+	color:#000;
+	font-weight: bold;
+	float:left;
+	line-height: 0.25rem;
+}
+.list>.right>.xia>.right>.money>span:last-child{
+	font-size:0.3rem;
+	color:#FE464E;
+	font-weight: bold;
+	line-height: 0.25rem;
+}
+.zf{
+	width:1.54rem;
+	height:0.45rem;
+	background:#FE464E;
+	border-radius: 30px;
+	float:right;
+	margin-right: 0.08rem;
+	margin-top:0.05rem;
+}
+.zf>a{
+	font-size: 0.18rem;
+	color:#fff;
+	text-align: center;
+	display:block;
+	line-height: 0.45rem;
+}
+.zhe{
+	width:100%;
+	height:13.33rem;
+	background:rgba(0,0,0,0.4);
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 1;
+	display:none;
+	
+}

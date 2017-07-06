@@ -1,0 +1,26 @@
+.zhe{
+	width:100%;
+	height:13.33rem;
+	background:rgba(0,0,0,0.4);
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 1;
+	display:block;
+}
+header>.kuang>input{
+	z-index: 1;
+}
+.tu{
+	background-image: url("../img/zjl-nowang.png");
+	background-size: cover;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+	z-index: 4;
+	width:5.52rem;
+	height:3.48rem;
+}
