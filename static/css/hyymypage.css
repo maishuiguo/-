@@ -1,0 +1,167 @@
+body{
+    background: #F2F2F2;
+}
+nav{
+    height:0.99rem;
+    width:100%;
+    background:#FE464E;
+    position:absolute;
+    left:0;
+    top:0;
+}
+nav p{
+    color:#fff;
+    text-align: center;
+}
+nav p:first-child{
+    margin-top:0.1rem;
+    font-size: 0.33rem;
+}
+
+
+.iscroll{
+    position:absolute;
+    top:0.99rem;
+    bottom:0.98rem;
+    left:0;
+    width: 100%;
+    overflow: hidden;
+}
+.iscroll .zhuti{
+    height:12rem;
+}
+header{
+    position: relative;
+}
+header .back{
+    height:3.52rem;
+    width:100%;
+    background-image: url("../img/hyymyback.png");
+    background-size: cover;
+}
+header .photo{
+    position: absolute;
+    height:2.14rem;
+    width:100%;
+    background-image: url("../img/hyyphoto.png");
+    background-size:contain;
+    left:0;
+    top:2.4rem;
+    z-index: 1;
+}
+header .jianjie{
+    position: absolute;
+    left:0;
+    top:2.4rem;
+    text-align: center;
+    width: 100%;
+}
+header .jianjie p:first-child,header .jianjie p:nth-child(2){
+    color:#626262;
+    font-weight: bold;
+    font-size: 0.34rem;
+}
+
+header .photo .position{
+    position: absolute;
+    left:50%;
+    margin-left:-0.89rem;
+    top:0.23rem;
+    height:1.76rem;
+    width:1.76rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+header .photo .position img{
+    height:100%;
+}
+.bodys{
+    position:absolute;
+    height:3.6rem;
+    width:100%;
+    left:0;
+    top:7rem;
+}
+.bodys li{
+    height:1rem;
+    width:7rem;
+    margin:0 auto;
+    background: #fff;
+    margin-top: 0.2rem;
+    border-radius: 0.25rem;
+    padding:0 0.2rem;
+}
+.bodys li a{
+    display: block;
+    height: 100%;
+    width:100%;
+}
+.bodys li .left{
+    float:left;
+    height:78%;
+    width:0.9rem;
+    margin-top: 0.1rem;
+    border-right:1px solid #F2F2F2;
+}
+.bodys li .left img{
+    height:100%;
+    display: block;
+}
+.bodys li p{
+    float:left;
+    line-height: 1rem;
+    padding-left:0.3rem;
+    font-size: 0.3rem;
+    color:#8c8c8c;
+}
+.bodys li p span{
+    font-size: 0.24rem;
+    color:#ccc;
+}
+.bodys li p .more{
+    font-family: "宋体";
+    display: block;
+    height:0.4rem;
+    width:0.4rem;
+    background:#FFB629;
+    float: right;
+    margin-left:1.9rem;
+    border-radius: 50%;
+    margin-top: 0.3rem;
+    line-height: 0.4rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color:#fff;
+}
+footer{
+    width:100%;
+    height:0.98rem;
+    display: flex;
+    justify-content: space-around;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+footer div{
+    width:25%;
+    height:100%;
+    border-right:1px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    background:#2f2728;
+}
+footer div img{
+    width:0.58rem;
+    display: block;
+    margin:0.05rem auto;
+}
+footer div section{
+    font-size:0.2rem;
+}
+footer div p{
+    display: block;
+    color:#fff;
+    margin:-0.05rem auto;
+    font-size:0.2rem;
+}

@@ -1,0 +1,104 @@
+html,body{
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background-image:url("../img/hyyloginback.png");
+    background-size:100%;
+}
+nav{
+    height:0.88rem;
+    width:96%;
+    margin:0 auto;
+}
+nav a {
+    color: #fff;
+    font-family: "宋体";
+    font-size: 0.5rem;
+    display: block;
+    line-height: 0.88rem;
+}
+.loginbtn{
+    height:0.9rem;
+    width:4rem;
+    border-radius:0.6rem;
+    background: #fff;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.4);
+    font-size: 0.4rem;
+    margin:0 auto;
+    margin-top:0.5rem;
+    text-align: center;
+    line-height: 0.9rem;
+    color:#495558;
+}
+.input{
+    height:4.7rem;
+    width:6rem;
+    margin:0 auto;
+    margin-top:0.5rem;
+    background: #fff;
+    border-radius: 0.4rem;
+    padding:0.2rem;
+    box-sizing: border-box;
+}
+.input .label{
+    height:1.08rem;
+    width:100%;
+    position: relative;
+}
+.input .label .user{
+    height:100%;
+    width:66%;
+    border:none;
+    display: block;
+    padding-left: 1.8rem;
+    outline: none;
+    font-size: 0.32rem;
+}
+.input p{
+    height:1px;
+    width:100%;
+    background: #ccc;
+}
+.input .label .pass{
+    height:100%;
+    width:66%;
+    border:none;
+    display: block;
+    padding-left: 1.85rem;
+    outline: none;
+    font-size: 0.32rem;
+}
+.input .label img{
+    height:0.43rem;
+    position: absolute;
+    top:0.28rem;
+    right:0.2rem;
+}
+.input span{
+    position:absolute;
+    left:0.2rem;top:0.1rem;
+    color:#525E61;
+    font-size:0.32rem;
+    font-weight: bold;
+}
+.input span.mi{
+    left:0.26rem;
+}
+.input span.first{
+    left:0;
+    top:0.55rem;
+    font-weight:500;
+    font-size:0.3rem;
+}
+.input .label .pass::-webkit-input-placeholder,.input .label .user::-webkit-input-placeholder{
+    color:#c1c1c1;
+    font-size:0.24rem;
+}
+.lose{
+    height:1.1rem;width:80%;
+    margin:0 auto;
+    font-size:0.26rem;
+    padding:0.1rem 0.15rem;
+    text-align: center;
+}
+
