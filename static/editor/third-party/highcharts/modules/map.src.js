@@ -865,7 +865,7 @@
 
 		/**
 		 * Animate in the new series from the clicked point in the old series.
-		 * Depends on the drilldown.js modules
+		 * Depends on the drilldown.js module
 		 */
 		animateDrilldown: function (init) {
 			var toBox = this.chart.plotBox,

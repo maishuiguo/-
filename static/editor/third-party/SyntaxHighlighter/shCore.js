@@ -2894,7 +2894,7 @@ typeof(exports) != 'undefined' ? exports.SyntaxHighlighter = SyntaxHighlighter :
 			'case catch cond div end fun if let not of or orelse '+
 			'query receive rem try when xor'+
 			// additional
-			' modules export import define';
+			' module export import define';
 
 		this.regexList = [
 			{ regex: new RegExp("[A-Z][A-Za-z0-9_]+", 'g'), 			css: 'constants' },
@@ -3368,7 +3368,7 @@ typeof(exports) != 'undefined' ? exports.SyntaxHighlighter = SyntaxHighlighter :
 		// Contributed by Erik Peterson.
 	
 		var keywords =	'alias and BEGIN begin break case class def define_method defined do each else elsif ' +
-						'END end ensure false for if in modules new next nil not or raise redo rescue retry return ' +
+						'END end ensure false for if in module new next nil not or raise redo rescue retry return ' +
 						'self super then throw true undef unless until when while yield';
 
 		var builtins =	'Array Bignum Binding Class Continuation Dir Exception FalseClass File::Stat File Fixnum Fload ' +

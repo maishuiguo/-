@@ -1,7 +1,6 @@
 <?php
 class login extends main{
       function init(){
-
           if($this->session->get("logined")){
             echo "<script>location.href='index.php?m=admin&f=login&a=main'</script>";
             exit;
@@ -10,6 +9,7 @@ class login extends main{
          $this->session->set("position",$num);
          $this->smarty->assign("position",$num);
          $this->smarty->display("index.html");
+//          echo 2222;
       }
       function code(){
           $obj=new code();
@@ -71,7 +71,6 @@ class login extends main{
           if($position==$_SESSION["position"]){
               $this->session->set("codeok","ok");
               echo "ok";
-
           }else{
               echo "no";
           }

@@ -33,14 +33,14 @@ var dom = UE.dom = {};
 /**
  * 浏览器判断模块
  * @file
- * @modules UE.browser
+ * @module UE.browser
  * @since 1.2.6.1
  */
 
 /**
  * 提供浏览器检测的模块
  * @unfile
- * @modules UE.browser
+ * @module UE.browser
  */
 var browser = UE.browser = function(){
     var agent = navigator.userAgent.toLowerCase(),
@@ -293,13 +293,13 @@ var ie = browser.ie,
 /**
  * 工具函数包
  * @file
- * @modules UE.utils
+ * @module UE.utils
  * @since 1.2.6.1
  */
 
 /**
  * UEditor封装使用的静态工具函数
- * @modules UE.utils
+ * @module UE.utils
  * @unfile
  */
 
@@ -1506,7 +1506,7 @@ utils.each(['String', 'Function', 'Array', 'Number', 'RegExp', 'Object', 'Date']
 /**
  * UE采用的事件基类
  * @file
- * @modules UE
+ * @module UE
  * @class EventBase
  * @since 1.2.6.1
  */
@@ -1514,14 +1514,14 @@ utils.each(['String', 'Function', 'Array', 'Number', 'RegExp', 'Object', 'Date']
 /**
  * UEditor公用空间，UEditor所有的功能都挂载在该空间下
  * @unfile
- * @modules UE
+ * @module UE
  */
 
 /**
  * UE采用的事件基类，继承此类的对应类将获取addListener,removeListener,fireEvent方法。
  * 在UE中，Editor以及所有ui实例都继承了该类，故可以在对应的ui对象以及editor对象上使用上述方法。
  * @unfile
- * @modules UE
+ * @module UE
  * @class EventBase
  */
 
@@ -1654,7 +1654,7 @@ EventBase.prototype = {
 /**
  * 获得对象所拥有监听类型的所有监听器
  * @unfile
- * @modules UE
+ * @module UE
  * @since 1.2.6.1
  * @method getListener
  * @public
@@ -1858,14 +1858,14 @@ var dtd = dom.dtd = (function() {
 /**
  * Dom操作工具包
  * @file
- * @modules UE.dom.domUtils
+ * @module UE.dom.domUtils
  * @since 1.2.6.1
  */
 
 /**
  * Dom操作工具包
  * @unfile
- * @modules UE.dom.domUtils
+ * @module UE.dom.domUtils
  */
 function getDomNode(node, start, ltr, startFromChild, fn, guard) {
     var tmpNode = startFromChild && node[start],
@@ -4273,7 +4273,7 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
 /**
  * Range封装
  * @file
- * @modules UE.dom
+ * @module UE.dom
  * @class Range
  * @since 1.2.6.1
  */
@@ -4281,13 +4281,13 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
 /**
  * dom操作封装
  * @unfile
- * @modules UE.dom
+ * @module UE.dom
  */
 
 /**
  * Range实现类，本类是UEditor底层核心类，封装不同浏览器之间的Range操作。
  * @unfile
- * @modules UE.dom
+ * @module UE.dom
  * @class Range
  */
 
@@ -6120,7 +6120,7 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
 /**
  * 选集
  * @file
- * @modules UE.dom
+ * @module UE.dom
  * @class Selection
  * @since 1.2.6.1
  */
@@ -6128,7 +6128,7 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
 /**
  * 选区集合
  * @unfile
- * @modules UE.dom
+ * @module UE.dom
  * @class Selection
  */
 (function () {
@@ -6511,7 +6511,7 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
 /**
  * 编辑器主类，包含编辑器提供的大部分公用接口
  * @file
- * @modules UE
+ * @module UE
  * @class Editor
  * @since 1.2.6.1
  */
@@ -6519,13 +6519,13 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
 /**
  * UEditor公用空间，UEditor所有的功能都挂载在该空间下
  * @unfile
- * @modules UE
+ * @module UE
  */
 
 /**
  * UEditor的核心类，为用户提供与编辑器交互的接口。
  * @unfile
- * @modules UE
+ * @module UE
  * @class Editor
  */
 
@@ -6587,7 +6587,7 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
 
     /**
      * 编辑器准备就绪后会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event ready
      * @remind render方法执行完成之后,会触发该事件
@@ -6601,80 +6601,80 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
      */
     /**
      * 执行destroy方法,会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event destroy
      * @see UE.Editor:destroy()
      */
     /**
      * 执行reset方法,会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event reset
      * @see UE.Editor:reset()
      */
     /**
      * 执行focus方法,会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event focus
      * @see UE.Editor:focus(Boolean)
      */
     /**
      * 语言加载完成会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event langReady
      */
     /**
      * 运行命令之后会触发该命令
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event beforeExecCommand
      */
     /**
      * 运行命令之后会触发该命令
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event afterExecCommand
      */
     /**
      * 运行命令之前会触发该命令
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event firstBeforeExecCommand
      */
     /**
      * 在getContent方法执行之前会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event beforeGetContent
      * @see UE.Editor:getContent()
      */
     /**
      * 在getContent方法执行之后会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event afterGetContent
      * @see UE.Editor:getContent()
      */
     /**
      * 在getAllHtml方法执行时会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event getAllHtml
      * @see UE.Editor:getAllHtml()
      */
     /**
      * 在setContent方法执行之前会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event beforeSetContent
      * @see UE.Editor:setContent(String)
      */
     /**
      * 在setContent方法执行之后会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event afterSetContent
      * @see UE.Editor:setContent(String)
@@ -6691,21 +6691,21 @@ var fillCharReg = new RegExp(domUtils.fillChar, 'g');
      */
     /**
      * 在所有selectionchange的监听函数执行之前，会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event beforeSelectionChange
      * @see UE.Editor:selectionchange
      */
     /**
      * 在所有selectionchange的监听函数执行完之后，会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event afterSelectionChange
      * @see UE.Editor:selectionchange
      */
     /**
      * 编辑器内容发生改变时会触发该事件
-     * @modules UE
+     * @module UE
      * @class Editor
      * @event contentChange
      */
@@ -8142,13 +8142,13 @@ UE.Editor.defaultOptions = function(editor){
 // core/ajax.js
 /**
  * @file
- * @modules UE.ajax
+ * @module UE.ajax
  * @since 1.2.6.1
  */
 
 /**
  * 提供对ajax请求的支持
- * @modules UE.ajax
+ * @module UE.ajax
  */
 UE.ajax = function() {
 
@@ -8412,13 +8412,13 @@ UE.ajax = function() {
 
 /**
  * UEditor公用空间，UEditor所有的功能都挂载在该空间下
- * @modules UE
+ * @module UE
  */
 
 
 /**
  * 根据传入html字符串过滤word
- * @modules UE
+ * @module UE
  * @since 1.2.6.1
  * @method filterWord
  * @param { String } html html字符串
@@ -8599,7 +8599,7 @@ var filterWord = UE.filterWord = function () {
 /**
  * 编辑器模拟的节点类
  * @file
- * @modules UE
+ * @module UE
  * @class uNode
  * @since 1.2.6.1
  */
@@ -8607,7 +8607,7 @@ var filterWord = UE.filterWord = function () {
 /**
  * UEditor公用空间，UEditor所有的功能都挂载在该空间下
  * @unfile
- * @modules UE
+ * @module UE
  */
 
 (function () {
@@ -8615,7 +8615,7 @@ var filterWord = UE.filterWord = function () {
     /**
      * 编辑器模拟的节点类
      * @unfile
-     * @modules UE
+     * @module UE
      * @class uNode
      */
 
@@ -9356,14 +9356,14 @@ var filterWord = UE.filterWord = function () {
 /**
  * html字符串转换成uNode节点
  * @file
- * @modules UE
+ * @module UE
  * @since 1.2.6.1
  */
 
 /**
  * UEditor公用空间，UEditor所有的功能都挂载在该空间下
  * @unfile
- * @modules UE
+ * @module UE
  */
 
 /**
@@ -9560,13 +9560,13 @@ var htmlparser = UE.htmlparser = function (htmlstr,ignoreBlank) {
 
 /**
  * UEditor公用空间，UEditor所有的功能都挂载在该空间下
- * @modules UE
+ * @module UE
  */
 
 
 /**
  * 根据传入节点和过滤规则过滤相应节点
- * @modules UE
+ * @module UE
  * @since 1.2.6.1
  * @method filterNode
  * @param { Object } root 指定root节点

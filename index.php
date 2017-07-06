@@ -3,7 +3,7 @@ header("content-type:text/html;charset=utf-8");
 define("COMING","yes");
 $server=$_SERVER;
 define("ROOT_PATH",$server["DOCUMENT_ROOT"]);
-define("APP_PATH",ROOT_PATH."/W1701/mvc");
+define("APP_PATH",ROOT_PATH."/shuiguoApp/-");
 
 define("LIBS_PATH",APP_PATH."/libs");
 define("TPL_PATH",APP_PATH."/template");
@@ -15,13 +15,11 @@ define("CSS_PATH",$prot."://".$server["HTTP_HOST"].$path."/static/css");
 define("IMG_PATH",$prot."://".$server["HTTP_HOST"].$path."/static/img");
 define("JS_PATH",$prot."://".$server["HTTP_HOST"].$path."/static/js");
 define("EDIT_PATH",$prot."://".$server["HTTP_HOST"].$path."/static/editor");
-
 define("SELF_PATH",$prot."://".$server["HTTP_HOST"].$server["SCRIPT_NAME"]);
-
 require_once LIBS_PATH."/functions.php";
 require_once LIBS_PATH."/route.class.php";
 require_once LIBS_PATH."/db.class.php";
-require_once LIBS_PATH."/smarty/Smarty.class.php";
+require_once LIBS_PATH."/smarty/libs/Smarty.class.php";
 require_once LIBS_PATH."/main.class.php";
 require_once LIBS_PATH."/indexMain.class.php";
 require_once LIBS_PATH."/code.class.php";

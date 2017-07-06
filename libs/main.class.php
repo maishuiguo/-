@@ -3,8 +3,8 @@
 class main{
     function __construct(){
           $smarty=new Smarty();
-          $smarty->setCompileDir("compile");
-          $smarty->setTemplateDir("template/admin");
+          $smarty->setCompileDir("com");
+          $smarty->setTemplateDir("tem/admin");
           $this->smarty=$smarty;
           $this->session=new session();
     }

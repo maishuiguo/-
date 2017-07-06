@@ -1903,10 +1903,10 @@ function angularInit(element, bootstrap) {
  * ```
  *
  * @param {DOMElement} element DOM element which is the root of angular application.
- * @param {Array<String|Function|Array>=} modules an array of modules to load into the application.
+ * @param {Array<String|Function|Array>=} modules an array of module to load into the application.
  *     Each item in the array should be the name of a predefined module or a (DI annotated)
  *     function that will be invoked by the injector as a `config` block.
- *     See: {@link angular.module modules}
+ *     See: {@link angular.module module}
  * @param {Object=} config an object for defining configuration options for the application. The
  *     following keys are supported:
  *
@@ -1939,7 +1939,7 @@ function bootstrap(element, modules, config) {
     }]);
 
     if (config.debugInfoEnabled) {
-      // Pushing so that this overrides `debugInfoEnabled` setting defined in user's `modules`.
+      // Pushing so that this overrides `debugInfoEnabled` setting defined in user's `module`.
       modules.push(['$compileProvider', function($compileProvider) {
         $compileProvider.debugInfoEnabled(true);
       }]);
@@ -2206,7 +2206,7 @@ var NODE_TYPE_DOCUMENT_FRAGMENT = 11;
  * @module ng
  * @description
  *
- * Interface for configuring angular {@link angular.module modules}.
+ * Interface for configuring angular {@link angular.module module}.
  */
 
 function setupModuleLoader(window) {
@@ -2220,7 +2220,7 @@ function setupModuleLoader(window) {
 
   var angular = ensure(window, 'angular', Object);
 
-  // We need to expose `angular.$$minErr` to modules such as `ngResource` that reference it during bootstrap
+  // We need to expose `angular.$$minErr` to module such as `ngResource` that reference it during bootstrap
   angular.$$minErr = angular.$$minErr || minErr;
 
   return ensure(angular, 'module', function() {
@@ -2234,8 +2234,8 @@ function setupModuleLoader(window) {
      * @description
      *
      * The `angular.module` is a global place for creating, registering and retrieving Angular
-     * modules.
-     * All modules (angular core or 3rd party) that should be available to an application must be
+     * module.
+     * All module (angular core or 3rd party) that should be available to an application must be
      * registered using this mechanism.
      *
      * Passing one argument retrieves an existing {@link angular.Module},
@@ -2261,7 +2261,7 @@ function setupModuleLoader(window) {
      * }]);
      * ```
      *
-     * Then you can create an injector and load your modules like this:
+     * Then you can create an injector and load your module like this:
      *
      * ```js
      * var injector = angular.injector(['ng', 'myModule'])
@@ -2341,10 +2341,10 @@ function setupModuleLoader(window) {
            * ```
            *
            * You can also retrieve this information during runtime via the
-           * {@link $injector#modules `$injector.modules`} property:
+           * {@link $injector#modules `$injector.module`} property:
            *
            * ```js
-           * var version = $injector.modules['myModule'].info().version;
+           * var version = $injector.module['myModule'].info().version;
            * ```
            */
           info: function(value) {
@@ -2362,7 +2362,7 @@ function setupModuleLoader(window) {
            * @module ng
            *
            * @description
-           * Holds the list of modules which the injector will load before the current module is
+           * Holds the list of module which the injector will load before the current module is
            * loaded.
            */
           requires: requires,
@@ -2558,7 +2558,7 @@ function setupModuleLoader(window) {
            *    Useful for application initialization.
            * @description
            * Use this method to register work which should be performed when the injector is done
-           * loading all modules.
+           * loading all module.
            */
           run: function(block) {
             runBlocks.push(block);
@@ -4275,7 +4275,7 @@ function annotate(fn, strictDi, name) {
  *
  * `$injector` is used to retrieve object instances as defined by
  * {@link auto.$provide provider}, instantiate types, invoke methods,
- * and load modules.
+ * and load module.
  *
  * The following always holds true:
  *
@@ -4325,7 +4325,7 @@ function annotate(fn, strictDi, name) {
  * @name $injector#modules
  * @type {Object}
  * @description
- * A hash containing all the modules that have been loaded into the
+ * A hash containing all the module that have been loaded into the
  * $injector.
  *
  * You can use this property to find out information about a module via the
@@ -4334,10 +4334,10 @@ function annotate(fn, strictDi, name) {
  * For example:
  *
  * ```
- * var info = $injector.modules['ngAnimate'].info();
+ * var info = $injector.module['ngAnimate'].info();
  * ```
  *
- * **Do not use this property to attempt to modify the modules after the application
+ * **Do not use this property to attempt to modify the module after the application
  * has been bootstrapped.**
  */
 

@@ -1508,7 +1508,7 @@ defaultOptions = {
 	},
 	global: {
 		useUTC: true,
-		canvasToolsURL: 'http://code.highcharts.com/3.0.6/modules/canvas-tools.js',
+		canvasToolsURL: 'http://code.highcharts.com/3.0.6/module/canvas-tools.js',
 		VMLRadialGradientURL: 'http://code.highcharts.com/3.0.6/gfx/vml-radial-gradient.png'
 	},
 	chart: {
@@ -1868,7 +1868,7 @@ function setOptions(options) {
 }
 
 /**
- * Get the updated default options. Merely exposing defaultOptions for outside modules
+ * Get the updated default options. Merely exposing defaultOptions for outside module
  * isn't enough because the setOptions method creates a new object.
  */
 function getOptions() {

@@ -171,14 +171,14 @@
      * As you know, Web Uploader的每个文件都是用过[AMD](https://github.com/amdjs/amdjs-api/wiki/AMD)规范中的`define`组织起来的, 每个Module都会有个module id.
      * 默认module id该文件的路径，而此路径将会转化成名字空间存放在WebUploader中。如：
      *
-     * * modules `base`：WebUploader.Base
-     * * modules `file`: WebUploader.File
-     * * modules `lib/dnd`: WebUploader.Lib.Dnd
-     * * modules `runtime/html5/dnd`: WebUploader.Runtime.Html5.Dnd
+     * * module `base`：WebUploader.Base
+     * * module `file`: WebUploader.File
+     * * module `lib/dnd`: WebUploader.Lib.Dnd
+     * * module `runtime/html5/dnd`: WebUploader.Runtime.Html5.Dnd
      *
      *
      * 以下文档将可能省略`WebUploader`前缀。
-     * @modules WebUploader
+     * @module WebUploader
      * @title WebUploader API文档
      */
     define('base',[
