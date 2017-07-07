@@ -10,28 +10,8 @@
 		<script src="../../static/js/jquery.min.js"></script>
 		<script src="../../static/js/common.js"></script>
 		<script src='../../static/js/iscroll.js'></script>
-		<script type="text/javascript">
-            var myScroll;
-            
-			window.onload=function(){
-				var myScroll = new IScroll('#wrapper',
-		            {
-		                mouseWheel: true,
-		                click:true,
-		            });
-		           }
-            </script>
-
+		<script src='../../static/js/zjl-qsearch.js'></script>
 	</head>
-	<style>
-	#wrapper{
-        width:100%;
-        position:fixed;
-        left:0;top:8.6rem;
-        bottom:0;
-        overflow: hidden;
-    }
-	</style>
 	<body >
 		<header>
 			<nav>
@@ -183,20 +163,6 @@
 		<div class='zhe'></div>
 		
 	</body>
-	<script>
-        var input=document.querySelector('input');
-        var zhe=document.querySelector(".zhe")
-        document.body.onclick=function(e){
-            var obj=e.target;
-            if(obj.className=='sousuo'||obj.nodeName=='INPUT'){
-
-                zhe.style.display="block";
-            }else{
-                zhe.style.display="none";
-            }
-
-        }
-
-	</script>
+	
 </html>
 
