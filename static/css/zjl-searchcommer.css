@@ -1,0 +1,152 @@
+img{
+	display:block;
+}
+span{
+	display:block;
+}
+body{
+	background:#F2F2F2;
+}
+header{
+	width:100%;
+	height:2.08rem;
+	background-image: url(../img/zjl-background.png);
+	background-position: center center;
+	background-size: cover;
+}
+nav{
+	width:100%;
+	height:0.98rem;
+	overflow: hidden;
+}
+nav>.left{
+	width:0.5rem;
+	height:0.5rem;
+	margin-top: 0.24rem;
+	margin-left: 0.26rem;
+	float:left;
+}
+nav>.left>a>img{
+	
+	height:100%;
+	width:100%;
+
+}
+nav>.right{
+	width:1.65rem;
+	height:0.6rem;
+	margin-left: 2.24rem;
+	float:left;
+}
+nav>.right>img{
+	width:100%;
+	height:100%;
+	margin-top:0.2rem;
+}
+header>.title{
+	width:0.84rem;
+	height:0.42rem;
+	margin-left: 0.46rem;
+}
+header>.title>img{
+	width:100%;
+	height:100%;
+}
+header>.kuang{
+	height:0.52rem;
+	width:6.2rem;
+	margin-left:0.46rem;
+	position: relative;
+}
+header>.kuang>a>img{
+	width:0.35rem;
+	margin-top: 0.2rem;
+	position: absolute;
+	right:0.05rem;
+	bottom:0.01rem;
+	z-index:333;
+}
+header>.kuang>input{
+	height:0.5rem;
+	width:6.2rem;
+	border-radius: 0.3rem;
+	display: block;
+	float: left;
+	border: none;
+	padding:0 0 0 0.4rem;
+	position: absolute;
+	top:0.08rem;
+	left:0.12rem;
+	z-index: 3;
+	box-sizing: border-box;
+}
+header>.kuang>input::-webkit-input-placeholder{
+	color:#A7A9AF; 
+}
+.tiao{
+	width:5.56rem;
+	height:auto;
+	background:#fff;
+	position:absolute;
+	top:0.7rem;
+	left:0.4rem;
+	border-radius:0.2rem;
+	z-index: 666;
+	display:none;
+}
+.tiao >div{
+ 	width:0.2rem;
+ 	height:0.2rem;
+ 	border-radius: 50%;
+ 	position:absolute;
+ 	top:-0.1rem;
+	left:0.25rem;
+ 	z-index: 666;
+ 	background:#fff;
+}
+.tiao>ul{
+	width:100%;
+	height:auto;
+	padding:0 0 0.2rem 0;
+}
+.tiao>ul>li{
+	width:4.46rem;
+	height:1.02rem;
+	margin-left: 0.4rem;
+	margin-top: 0.08rem;
+}
+.tiao>ul>li>a{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.tiao>ul>li>a>img{
+	width:0.9rem;
+	float:left;
+}
+.tiao>ul>li>a>p{
+	height:0.4rem;
+	width:auto;
+	margin-left:0.5rem;
+}
+.tiao>ul>li>a>p>span{
+	float:left;	
+	font-size:0.18rem;
+	color:#5B5B5A;
+	font-weight: bold;
+}
+.tiao>ul>li>a>p>span:first-child{
+	margin-left: 0.3rem;
+	color:#EA1E3B;
+}
+.tiao>ul>li>a>p>span{
+	
+	border-bottom: 0.01rem dashed #C2C2C2;
+	box-sizing: border-box;
+}
+.tiao>ul>li>a>span{
+	font-size: 0.12rem;
+	margin-left: 1.2rem;
+	line-height: 0.25rem;
+	color:#B9B9B9;
+}
