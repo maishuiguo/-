@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-06 08:45:16
+/* Smarty version 3.1.30, created on 2017-07-07 13:20:09
   from "D:\wamp\www\shuiguoApp\-\tem\admin\addCon.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_595ddc7ca6f495_28486650',
+  'unifunc' => 'content_595f6e69c41ff9_45303705',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b2ac6460f1ca51429956f117d6dabefc4a0edaae' => 
     array (
       0 => 'D:\\wamp\\www\\shuiguoApp\\-\\tem\\admin\\addCon.html',
-      1 => 1499250387,
+      1 => 1499426406,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_595ddc7ca6f495_28486650 (Smarty_Internal_Template $_smarty_tpl) {
+function content_595f6e69c41ff9_45303705 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -67,20 +67,19 @@ function content_595ddc7ca6f495_28486650 (Smarty_Internal_Template $_smarty_tpl)
 
         </select>
     </div>
+    英文标题:<input type="text" name="Engtitle"><br>
     标题: <input type="text" name="title"><br>
     关键字：<input type="text" name="keywords"><br>
+    内容2: <textarea name="con2" id="con2" cols="30" rows="10"></textarea><br>
+    内容3: <textarea name="con3" id="con3" cols="30" rows="10"></textarea><br>
+    库存：<input type="text" name="kucun"><br>
+    价格：<input type="text" name="price"><br>
     内容:  <div><?php echo '<script'; ?>
  id="editor" type="text/plain" style="width:500px;height:300px;" name="con"><?php echo '</script'; ?>
 ></div>
     <input type="hidden" value="" name="cid">
 
-
-    <div class="yin" style="width:300px;overflow:hidden;position:absolute;right:20px;top:220px;">
-    <input type="hidden" name="thumb" id="thumb">
-    </div>
-
-
-        推荐位：
+    推荐位：
     <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['result']->value, 'v');
 if ($_from !== null) {
@@ -96,7 +95,14 @@ foreach ($_from as $_smarty_tpl->tpl_vars['v']->value) {
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 ?>
 
-        <input type="submit" value="提交">
+    <input type="submit" value="提交">
+
+    <div class="yin" style="width:300px;position:absolute;right:60px;top:50px;">
+    <input type="hidden" name="thumb" id="thumb">
+    </div>
+
+
+
 
         </form>
 

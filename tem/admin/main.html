@@ -56,41 +56,29 @@ iframe{
     </header>
     <div class="box">
     <div class="left">
+
     <ul>
-        {if $rid==1}
-    <li>
-    <a href="javascript:;">用户管理</a>
-        <ul>
         <li>
-        <a href="index.php?m=admin&f=user&a=add" target="iframe">添加用户</a>
+            <a href="javascript:;">用户管理</a>
+                <ul>
+                    <li>
+                        <a href="index.php?m=admin&f=user&a=add" target="iframe">添加用户</a>
+                    </li>
+                </ul>
         </li>
 
+
         <li>
-        <a href="showCategory.php" target="iframe">查看用户</a>
+            <a href="javascript:;">分类管理</a>
+            <ul>
+                <li>
+                    <a href="index.php?m=admin&f=category&a=add" target="iframe">添加分类</a>
+                </li>
+                <li>
+                    <a href="index.php?m=admin&f=category&a=edit" target="iframe">管理分类</a>
+                </li>
+            </ul>
         </li>
-        </ul>
-    </li>
-        {/if}
-
-
-
-
-
-
-
-    <li>
-    <a href="javascript:;">分类管理</a>
-    <ul>
-    <li>
-    <a href="index.php?m=admin&f=category&a=add" target="iframe">添加分类</a>
-    </li>
-
-    <li>
-    <a href="index.php?m=admin&f=category&a=edit" target="iframe">管理分类</a>
-    </li>
-    </ul>
-    </li>
-
 
         <li>
             <a href="javascript:;">内容管理</a>
