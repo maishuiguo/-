@@ -192,8 +192,13 @@ html,body{
 .action{
 	display:block;
 }
-
-
+#wrapper{
+    width:100%;
+    position:fixed;
+    left:0;top:8.6rem;
+    bottom:0;
+    overflow: hidden;
+}
 
 
 

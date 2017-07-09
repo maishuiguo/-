@@ -6,32 +6,13 @@
 		<title></title>
 		<link rel="stylesheet" href="" />
 		<link rel="stylesheet" href="../../static/css/zjl-common.css" />
-		<link rel="stylesheet" href="../../static/css/searchcommer.css" />
+		<link rel="stylesheet" href="../../static/css/zjl-searchcommer.css" />
 		<link rel="stylesheet" href="../../static/css/zjl-hsearch.css" />
 		<script src="../../static/js/jquery.min.js"></script>
 		<script src="../../static/js/common.js"></script>
 		<script src='../../static/js/iscroll.js'></script>
-		<script type="text/javascript">
-            var myScroll; 
-			window.onload=function(){
-				var myScroll = new IScroll('#wrapper',
-		            {
-		                mouseWheel: true,
-		                click:true,
-		            });
-		           }
-        </script>
+		<script src='../../static/js/hsearch.js'></script>
 	</head>
-	<style>
-		#wrapper{
-        width:100%;
-        position:fixed;
-        left:0;top:5.6rem;
-        bottom:0;
-        overflow: hidden;
-    }
-	</style>
-	
 	<body>
 		<header>
 			<nav>
@@ -167,28 +148,6 @@
 		</section>
 	
 	</body>
-	<script>
-		$(".xin").on("touchstart",function(){
-			if($(this).attr("src","../../static/img/zjl-xin.png")){
-				$(this).attr("src","../../static/img/zjl-redxin.png")
-			}else{
-				$(this).attr("src","../../static/img/zjl-xin.png")
-			}
-			})
-		
-		
-		var input=document.querySelector('input');
-		var zhe=document.querySelector(".zhe")
-		document.body.onclick=function(e){
-			var obj=e.target;
-			if(obj.className=='sousuo'||obj.nodeName=='INPUT'){
-				
-				zhe.style.display="block";
-			}else{
-				zhe.style.display="none";
-			}
-			
-		}
-	</script>
+	
 </html>
 

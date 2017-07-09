@@ -185,3 +185,10 @@
 	display:none;
 	
 }
+#wrapper{
+    width:100%;
+    position:fixed;
+    left:0;top:5.6rem;
+    bottom:0;
+    overflow: hidden;
+}

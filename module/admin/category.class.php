@@ -19,6 +19,10 @@ class category extends main{
     }
 
     function edit(){
-        $this->smarty->display("editCategory.html");
+
+    }
+
+    function editcon(){
+
     }
 }
