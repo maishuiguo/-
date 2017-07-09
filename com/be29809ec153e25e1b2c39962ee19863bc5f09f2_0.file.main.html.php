@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-07 17:18:03
+/* Smarty version 3.1.30, created on 2017-07-09 05:45:27
   from "D:\wamp\www\shuiguoApp\-\tem\admin\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_595fa62b0313c8_87903908',
+  'unifunc' => 'content_5961a6d7e05f58_71491663',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'be29809ec153e25e1b2c39962ee19863bc5f09f2' => 
     array (
       0 => 'D:\\wamp\\www\\shuiguoApp\\-\\tem\\admin\\main.html',
-      1 => 1499440369,
+      1 => 1499566084,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_595fa62b0313c8_87903908 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5961a6d7e05f58_71491663 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -70,7 +70,7 @@ iframe{
 
 <header>
 欢迎<?php echo $_smarty_tpl->tpl_vars['name']->value;?>
-来到新闻管理系统
+来到管理系统
 
 <span>
 <a href="index.php?m=admin&f=login&a=logout">安全退出</a>
@@ -84,7 +84,7 @@ iframe{
 
     <ul>
         <li>
-            <a href="javascript:;">用户管理</a>
+            <a href="javascript:;">管理员管理</a>
                 <ul>
                     <li>
                         <a href="index.php?m=admin&f=user&a=add" target="iframe">添加用户</a>
@@ -116,8 +116,6 @@ iframe{
                 </li>
             </ul>
         </li>
-
-
         <li>
             <a href="javascript:;">推荐位管理</a>
             <ul>

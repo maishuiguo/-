@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-09 03:45:43
-  from "F:\wamp\wamp\www\php\shuiguoApp\-\tem\index\index.html" */
+/* Smarty version 3.1.30, created on 2017-07-09 07:20:46
+  from "D:\wamp\www\shuiguoApp\-\tem\index\index.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59618ac7b59af6_47573635',
+  'unifunc' => 'content_5961bd2ee46f09_90826626',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '6849e8f964d589407cc386bc759613fe8521f6c0' => 
+    '9245ef55a898d9dc08aae2d18734ab34f7060958' => 
     array (
-      0 => 'F:\\wamp\\wamp\\www\\php\\shuiguoApp\\-\\tem\\index\\index.html',
-      1 => 1499564744,
+      0 => 'D:\\wamp\\www\\shuiguoApp\\-\\tem\\index\\index.html',
+      1 => 1499577645,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59618ac7b59af6_47573635 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5961bd2ee46f09_90826626 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -60,9 +60,9 @@ yzf-index.js"><?php echo '</script'; ?>
 <body>
     <!--顶部-->
     <header>
-        <a href=""><img src="<?php echo IMG_PATH;?>
+        <a href="javascript:;"><img src="<?php echo IMG_PATH;?>
 index2_03.png" alt=""></a>
-        <a href=""><img src="<?php echo IMG_PATH;?>
+        <a href="index.php?m=index&f=search&a=add"><img src="<?php echo IMG_PATH;?>
 index2_05.png" alt=""></a>
         <div class="yzf-font1">
             <span></span>
@@ -148,7 +148,7 @@ index_21.png" alt="">
                                 <div class="yzf-bj">
                                     <div class="yzf-list">
                                         <img src="<?php echo IMG_PATH;?>
-index_07.png" alt="">
+fruit_03.png" alt="">
                                         <p>赣南脐橙</p>
                                         <span><b>GANNAN</b>QICHENG</span>
                                         <img class="yzf-zan" src="<?php echo IMG_PATH;?>
@@ -180,7 +180,7 @@ index_21.png" alt="">
                                 <div class="yzf-bj">
                                     <div class="yzf-list">
                                         <img src="<?php echo IMG_PATH;?>
-index_07.png" alt="">
+fruit_06.png" alt="">
                                         <p>赣南脐橙</p>
                                         <span><b>GANNAN</b>QICHENG</span>
                                         <img class="yzf-zan" src="<?php echo IMG_PATH;?>
@@ -235,7 +235,7 @@ index_21.png" alt="">
                                 <div class="yzf-bj">
                                     <div class="yzf-list">
                                         <img src="<?php echo IMG_PATH;?>
-index_07.png" alt="">
+fruit_06.png" alt="">
                                         <p>三三两两</p>
                                         <span><b>GANNAN</b>QICHENG</span>
                                         <img class="yzf-zan" src="<?php echo IMG_PATH;?>
@@ -251,7 +251,7 @@ index_21.png" alt="">
                                 <div class="yzf-bj">
                                     <div class="yzf-list">
                                         <img src="<?php echo IMG_PATH;?>
-index_07.png" alt="">
+fruit_03.png" alt="">
                                         <p>三三两两</p>
                                         <span><b>GANNAN</b>QICHENG</span>
                                         <img class="yzf-zan" src="<?php echo IMG_PATH;?>
@@ -387,12 +387,12 @@ p-zan.png">
 
     <!--底部-->
     <footer>
-        <a>
+        <a href="index.php">
             <img src="<?php echo IMG_PATH;?>
 index26.png" alt="">
             <p>首页</p>
         </a>
-        <a href="">
+        <a href="index.php?m=index&f=category&a=add">
             <img src="<?php echo IMG_PATH;?>
 index28.png" alt="">
             <p>分类</p>
@@ -402,7 +402,7 @@ index28.png" alt="">
 index30.png" alt="">
             <p>订单</p>
         </a>
-        <a>
+        <a href="index.php?m=index&f=mypage&a=add">
             <img src="<?php echo IMG_PATH;?>
 index32.png" alt="">
             <p>我的</p>

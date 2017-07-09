@@ -7,6 +7,9 @@
  */
 class index extends indexMain{
     function init(){
+        $db=new db("content");
+        $result=$db->where("posid=1")->select();
+        $this->smarty->assign("result",$result);
         $this->smarty->display("index.html");
     }
 }

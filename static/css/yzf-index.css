@@ -87,7 +87,7 @@ header .yzf-font1 .yzf-font2{
 .swiper-slide {
     text-align: center;
     font-size:0.18rem;
-    background: #fff;
+    background: #f2f2f2;
 }
 .swiper-slide img{
     width:100%;
@@ -232,7 +232,7 @@ header .yzf-font1 .yzf-font2{
 }
 .yzf-tjcon section .yzf-bj .yzf-list .yzf-num{
     float:left;
-    margin:0.1rem;
+    margin:0.03rem;
     vertical-align: bottom;
 }
 /*底部*/

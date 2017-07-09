@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-07 17:18:11
+/* Smarty version 3.1.30, created on 2017-07-09 06:08:54
   from "D:\wamp\www\shuiguoApp\-\tem\admin\addCon.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_595fa6333949c9_79243269',
+  'unifunc' => 'content_5961ac56941a68_66437107',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b2ac6460f1ca51429956f117d6dabefc4a0edaae' => 
     array (
       0 => 'D:\\wamp\\www\\shuiguoApp\\-\\tem\\admin\\addCon.html',
-      1 => 1499440369,
+      1 => 1499572214,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_595fa6333949c9_79243269 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5961ac56941a68_66437107 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -67,6 +67,7 @@ function content_595fa6333949c9_79243269 (Smarty_Internal_Template $_smarty_tpl)
 
         </select>
     </div>
+    英文加粗标题:<input type="text" name="BEngtitle"><br>
     英文标题:<input type="text" name="Engtitle"><br>
     标题: <input type="text" name="title"><br>
     关键字：<input type="text" name="keywords"><br>
@@ -96,7 +97,6 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 ?>
 
     <input type="submit" value="提交">
-
     <div class="yin" style="width:300px;position:absolute;right:60px;top:50px;">
     <input type="hidden" name="thumb" id="thumb">
     </div>
