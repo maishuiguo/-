@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-09 03:59:59
+  from "F:\wamp\wamp\www\php\shuiguoApp\-\tem\admin\main.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_59618e1f981e02_33137383',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '30c5b0a6801dde3000d06f8ef55d308209738bc9' => 
+    array (
+      0 => 'F:\\wamp\\wamp\\www\\php\\shuiguoApp\\-\\tem\\admin\\main.html',
+      1 => 1499565588,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_59618e1f981e02_33137383 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!doctype html>
 <html lang="en">
     <head>
@@ -45,7 +69,8 @@ iframe{
 <body>
 
 <header>
-欢迎{$name}来到管理系统
+欢迎<?php echo $_smarty_tpl->tpl_vars['name']->value;?>
+来到管理系统
 
 <span>
 <a href="index.php?m=admin&f=login&a=logout">安全退出</a>
@@ -114,4 +139,5 @@ iframe{
     </div>
 
     </body>
-    </html>
+    </html><?php }
+}
