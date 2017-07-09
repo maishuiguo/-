@@ -50,9 +50,9 @@ body{
     width:100%;height:auto;margin:0 0 1rem;
     text-align: center;
 }
-/*.money{*/
-
-/*}*/
+.mid>img{
+    height: .5rem;
+}
 /*.youhui{*/
     /*display: inline-block;*/
     /*overflow: hidden;*/
@@ -72,7 +72,7 @@ body{
 }
 .wuliu{
     width: 100%;
-    height:9rem;
+    padding-bottom: .55rem;
     background: #ffF;
     display: flex;
 
@@ -80,15 +80,34 @@ body{
 .ll{
     width:13%;
     height:100%;
+    text-align: center;
+}
+.ll>img{
+    height: 6rem;
+    margin-top:.35rem;
+
 }
 .rr{
-    width:87%;
+    width:5.7rem;
     height:100%;
 }
 .rr>li{
     height:1.65rem;
+    border-bottom: .01rem solid #e4e4e4;
 }
-
+.rr>li>img{
+    height: .55rem;
+    margin-top: .5rem;
+}
+.numD{
+    color:#1EAA4C;
+    font-size: .3rem;
+    margin-top: -.25rem;
+}
+.DDD{
+    font-size: .25rem;
+    color:#959595;
+}
 
 
 
@@ -99,4 +118,7 @@ body{
 .buy{
     background: #1EAA4C;text-align: center;
     margin-top: .2rem;
+}
+.buy>a>img{
+    height: .6rem;
 }

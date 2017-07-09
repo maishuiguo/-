@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-07-06 10:13:53
+/* Smarty version 3.1.30, created on 2017-07-08 03:07:09
   from "F:\Program Files\soft\wamp\www\shuiguoApp\-\tem\admin\main.html" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_595df141ae7569_89890228',
+  'unifunc' => 'content_5960303d45da05_06233034',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '1710b2f59ba07765fc3fe87e6e8ee03588cf7c44' => 
     array (
       0 => 'F:\\Program Files\\soft\\wamp\\www\\shuiguoApp\\-\\tem\\admin\\main.html',
-      1 => 1499328096,
+      1 => 1499475936,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_595df141ae7569_89890228 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5960303d45da05_06233034 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!doctype html>
 <html lang="en">
@@ -81,41 +81,29 @@ iframe{
     </header>
     <div class="box">
     <div class="left">
+
     <ul>
-        <?php if ($_smarty_tpl->tpl_vars['rid']->value == 1) {?>
-    <li>
-    <a href="javascript:;">用户管理</a>
-        <ul>
         <li>
-        <a href="index.php?m=admin&f=user&a=add" target="iframe">添加用户</a>
+            <a href="javascript:;">用户管理</a>
+                <ul>
+                    <li>
+                        <a href="index.php?m=admin&f=user&a=add" target="iframe">添加用户</a>
+                    </li>
+                </ul>
         </li>
 
+
         <li>
-        <a href="showCategory.php" target="iframe">查看用户</a>
+            <a href="javascript:;">分类管理</a>
+            <ul>
+                <li>
+                    <a href="index.php?m=admin&f=category&a=add" target="iframe">添加分类</a>
+                </li>
+                <li>
+                    <a href="index.php?m=admin&f=category&a=edit" target="iframe">管理分类</a>
+                </li>
+            </ul>
         </li>
-        </ul>
-    </li>
-        <?php }?>
-
-
-
-
-
-
-
-    <li>
-    <a href="javascript:;">分类管理</a>
-    <ul>
-    <li>
-    <a href="index.php?m=admin&f=category&a=add" target="iframe">添加分类</a>
-    </li>
-
-    <li>
-    <a href="index.php?m=admin&f=category&a=edit" target="iframe">管理分类</a>
-    </li>
-    </ul>
-    </li>
-
 
         <li>
             <a href="javascript:;">内容管理</a>
