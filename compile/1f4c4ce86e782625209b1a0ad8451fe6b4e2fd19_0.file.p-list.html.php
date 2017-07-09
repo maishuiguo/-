@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-09 05:19:39
+  from "F:\wamp\wamp\www\php\shuiguoApp\fruit\tem\index\p-list.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5961a0cb45ba22_44483560',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '1f4c4ce86e782625209b1a0ad8451fe6b4e2fd19' => 
+    array (
+      0 => 'F:\\wamp\\wamp\\www\\php\\shuiguoApp\\fruit\\tem\\index\\p-list.html',
+      1 => 1499570324,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5961a0cb45ba22_44483560 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 
 <!doctype html>
 <html lang="en">
@@ -7,9 +31,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="{CSS_PATH}common.css">
-    <link rel="stylesheet" href="{CSS_PATH}p-list.css">
-    <script src="{JS_PATH}common.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+common.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+p-list.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+common.js"><?php echo '</script'; ?>
+>
 </head>
 <body>
 <div class="top">
@@ -17,21 +46,25 @@
     <span></span>
     <p style="font-size: 15px">分类</p>
     <p style="font-size: 12px">SHAPFENLEI</p>
-    <a href="javascript:;" onclick="history.go(-1)"> <img class="hou" src="{IMG_PATH}p-hou.png"></a>
+    <a href="javascript:;" onclick="history.go(-1)"> <img class="hou" src="<?php echo IMG_PATH;?>
+p-hou.png"></a>
 </div>
 <div style="height: 50px;width: 100%"></div>
 <div class="biao">
-    <img src="{IMG_PATH}p-l1_02.png">
+    <img src="<?php echo IMG_PATH;?>
+p-l1_02.png">
 </div>
 <div class="list">
-    <div class="left" style="background-image: url('{IMG_PATH}p-l1.png');background-size: cover">
+    <div class="left" style="background-image: url('<?php echo IMG_PATH;?>
+p-l1.png');background-size: cover">
     </div>
     <div class="right">
         <p><b>RIBEN</b>ZHANGJICAOMEI</p>
         <p>日本章姬草莓</p>
         <p>草莓营养价值丰富，被誉为是“水果皇后”含有丰富的维生素维。</p>
         <div class="one">
-            <img src="{IMG_PATH}p-zan.png">
+            <img src="<?php echo IMG_PATH;?>
+p-zan.png">
             <span>1024</span>
         </div>
         <div class="two">
@@ -41,14 +74,16 @@
     </div>
 </div>
 <div class="list">
-<div class="left" style="background-image: url('{IMG_PATH}p-l2.png');background-size: cover">
+<div class="left" style="background-image: url('<?php echo IMG_PATH;?>
+p-l2.png');background-size: cover">
 </div>
 <div class="right">
     <p><b>TAIGUO</b>BAIHUANAIYEZI</p>
     <p>泰国百花奶椰子</p>
     <p>果肉纯白色，质腻滑，味浓甜，芳香，纤维少，品质优。</p>
     <div class="one">
-        <img src="{IMG_PATH}p-zan.png">
+        <img src="<?php echo IMG_PATH;?>
+p-zan.png">
         <span>1024</span>
     </div>
     <div class="two">
@@ -58,7 +93,8 @@
 </div>
 </div>
 <div class="list">
-<div class="left" style="background-image: url('{IMG_PATH}p-l1.png');background-size: cover">
+<div class="left" style="background-image: url('<?php echo IMG_PATH;?>
+p-l1.png');background-size: cover">
 </div>
 <div class="right">
     <a href="index.php?m=index&f=show&a=add">
@@ -66,7 +102,8 @@
         <p>日本章姬草莓</p>
         <p>草莓营养价值丰富，被誉为是“水果皇后”含有丰富的维生素维。</p>
         <div class="one">
-            <img src="{IMG_PATH}p-zan.png">
+            <img src="<?php echo IMG_PATH;?>
+p-zan.png">
             <span>1024</span>
         </div>
         <div class="two">
@@ -77,7 +114,8 @@
 </div>
 </div>
 <div class="list">
-<div class="left" style="background-image: url('{IMG_PATH}p-l2.png');background-size: cover">
+<div class="left" style="background-image: url('<?php echo IMG_PATH;?>
+p-l2.png');background-size: cover">
 </div>
 <div class="right">
     <a href="index.php?m=index&f=show&a=add">
@@ -85,7 +123,8 @@
         <p>泰国百花奶味椰</p>
         <p>果肉纯白色，质腻滑，味浓甜，芳香，纤维少，品质优。</p>
         <div class="one">
-            <img src="{IMG_PATH}p-zan.png">
+            <img src="<?php echo IMG_PATH;?>
+p-zan.png">
             <span>1024</span>
         </div>
         <div class="two">
@@ -97,3 +136,5 @@
 </div>
 </body>
 </html>
+<?php }
+}

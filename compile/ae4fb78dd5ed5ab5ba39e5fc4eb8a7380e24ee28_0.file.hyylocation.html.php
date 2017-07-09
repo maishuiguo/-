@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-09 05:26:47
+  from "F:\wamp\wamp\www\php\shuiguoApp\fruit\tem\index\hyylocation.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5961a277008883_01530406',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'ae4fb78dd5ed5ab5ba39e5fc4eb8a7380e24ee28' => 
+    array (
+      0 => 'F:\\wamp\\wamp\\www\\php\\shuiguoApp\\fruit\\tem\\index\\hyylocation.html',
+      1 => 1499570806,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5961a277008883_01530406 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,17 +33,29 @@
     <meta name="x5-fullscreen" content="true" />
     <meta name="full-screen" content="yes">
     <meta name="format-detection" content="telephone=no, email=no" />
-    <link rel="stylesheet" href="{CSS_PATH}common.css">
-    <script src="{JS_PATH}common.js"></script>
-    <link rel="stylesheet" href="{CSS_PATH}hyylocation.css">
-    <script src="{JS_PATH}zepto.js"></script>
-    <script src="{JS_PATH}iscroll.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+common.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+common.js"><?php echo '</script'; ?>
+>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+hyylocation.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+zepto.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+iscroll.js"><?php echo '</script'; ?>
+>
 </head>
 <body>
     <nav>
         <div class="return">
             <a href="javascript:;" onclick="history.go(-1)">
-                <img src="{IMG_PATH}hyyreturn.png" alt="">
+                <img src="<?php echo IMG_PATH;?>
+hyyreturn.png" alt="">
             </a>
         </div>
         <p>·地址管理·</p>
@@ -81,7 +117,8 @@
 
 </body>
 </html>
-<script>
+<?php echo '<script'; ?>
+>
     window.onload=function () {
         var myScroll = new IScroll('.iscroll',
             {
@@ -90,4 +127,6 @@
             });
     }
 
-</script>
+<?php echo '</script'; ?>
+><?php }
+}

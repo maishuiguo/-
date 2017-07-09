@@ -5,7 +5,7 @@ $server=$_SERVER;
 define("ROOT_PATH",$server["DOCUMENT_ROOT"]);$apppath=substr($server['SCRIPT_NAME'],1,strrpos($server['SCRIPT_NAME'],"/")-1);
 define("APP_PATH",ROOT_PATH.$apppath."/");
 
-define("LIBS_PATH",APP_PATH."/libs");
+define("LIBS_PATH",APP_PATH."libs");
 define("TPL_PATH",APP_PATH."/template");
 define("MODULE_PATH",APP_PATH."/module");
  $prot=substr($server["SERVER_PROTOCOL"],0,strrpos($server["SERVER_PROTOCOL"],"/"));
@@ -29,4 +29,3 @@ require_once LIBS_PATH."/upload.class.php";
 require_once LIBS_PATH."/page.class.php";
 $routeObj=new route();
 $routeObj->getInfo();
-

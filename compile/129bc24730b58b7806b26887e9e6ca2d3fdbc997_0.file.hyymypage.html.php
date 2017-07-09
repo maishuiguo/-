@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-09 05:27:29
+  from "F:\wamp\wamp\www\php\shuiguoApp\fruit\tem\index\hyymypage.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5961a2a11594f8_41119838',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '129bc24730b58b7806b26887e9e6ca2d3fdbc997' => 
+    array (
+      0 => 'F:\\wamp\\wamp\\www\\php\\shuiguoApp\\fruit\\tem\\index\\hyymypage.html',
+      1 => 1499570848,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5961a2a11594f8_41119838 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,11 +33,22 @@
     <meta name="x5-fullscreen" content="true" />
     <meta name="full-screen" content="yes">
     <meta name="format-detection" content="telephone=no, email=no" />
-    <link rel="stylesheet" href="{CSS_PATH}common.css">
-    <script src="{JS_PATH}common.js"></script>
-    <link rel="stylesheet" href="{CSS_PATH}hyymypage.css">
-    <script src="{JS_PATH}zepto.js"></script>
-    <script src="{JS_PATH}iscroll.js"></script>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+common.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+common.js"><?php echo '</script'; ?>
+>
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+hyymypage.css">
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+zepto.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+iscroll.js"><?php echo '</script'; ?>
+>
 </head>
 <body>
     <nav>
@@ -26,7 +61,8 @@
                 <div class="back"></div>
                 <div class="photo">
                     <div class="position">
-                        <img src="{IMG_PATH}hyytouxiang.png" alt="">
+                        <img src="<?php echo IMG_PATH;?>
+hyytouxiang.png" alt="">
                     </div>
                     <div class="jianjie">
                         <p>KEAIXIAOLTOU</p>
@@ -40,7 +76,8 @@
                 <li>
                     <a href="">
                         <div class="left">
-                            <img src="{IMG_PATH}hyydingdan.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+hyydingdan.png" alt="">
                         </div>
                         <p>修改信息 <span>XIUGAIXINXI</span> <span class="more">&gt;</span></p>
                     </a>
@@ -48,7 +85,8 @@
                 <li>
                     <a href="index.php?m=index&f=location&a=add">
                         <div class="left">
-                            <img src="{IMG_PATH}hyyxiaoxi.png" alt="">
+                            <img src="<?php echo IMG_PATH;?>
+hyyxiaoxi.png" alt="">
                         </div>
                         <p>地址管理 <span>DIZHIGUANLI</span> <span class="more">&gt;</span></p>
                     </a>
@@ -58,26 +96,31 @@
     </div>
             <footer>
                 <div>
-                    <img src="{IMG_PATH}index26.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+index26.png" alt="">
                     <p>首页</p>
                 </div>
                 <div>
-                    <img src="{IMG_PATH}index26.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+index26.png" alt="">
                     <p>首页</p>
                 </div>
                 <div>
-                    <img src="{IMG_PATH}index26.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+index26.png" alt="">
                     <p>首页</p>
                 </div>
                 <div>
-                    <img src="{IMG_PATH}index26.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+index26.png" alt="">
                     <p>首页</p>
                 </div>
             </footer>
 
 </body>
 </html>
-<script>
+<?php echo '<script'; ?>
+>
     window.onload=function () {
         var myScroll = new IScroll('.iscroll',
             {
@@ -86,4 +129,6 @@
             });
     }
 
-</script>
+<?php echo '</script'; ?>
+><?php }
+}

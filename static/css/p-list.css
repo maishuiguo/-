@@ -1,4 +1,4 @@
-body{
+﻿body{
     background: #f2f2f2;
 }
 .top{
@@ -129,25 +129,35 @@ footer{
     bottom:0;
     left:0;
 }
-footer div{
+footer{
+    width:100%;
+    height:0.98rem;
+    display: flex;
+    justify-content: space-around;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+footer a{
+    display:block;
     width:25%;
     height:100%;
     box-sizing: border-box;
     text-align: center;
     background:#2f2728;
 }
-footer div:first-child{
+footer a:first-child{
     background:#fe464e;
 }
-footer div img{
+footer a img{
     width:0.58rem;
     display: block;
     margin:0.05rem auto;
 }
-footer div section{
+footer a section{
     font-size:0.2rem;
 }
-footer div p{
+footer a p{
     display: block;
     color:#fff;
     margin:-0.05rem auto;

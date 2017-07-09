@@ -1,3 +1,27 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-09 06:09:32
+  from "F:\wamp\wamp\www\php\shuiguoApp\fruit\tem\index\zcy-pay.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_5961ac7c682e55_76823762',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '5276d5c9c552ccc2892f9d367ac6a9f19c9162a4' => 
+    array (
+      0 => 'F:\\wamp\\wamp\\www\\php\\shuiguoApp\\fruit\\tem\\index\\zcy-pay.html',
+      1 => 1499573372,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_5961ac7c682e55_76823762 (Smarty_Internal_Template $_smarty_tpl) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +30,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="{JS_PATH}common.js"></script>
-    <script src="{JS_PATH}iscroll.js"></script>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+common.js"><?php echo '</script'; ?>
+>
+    <?php echo '<script'; ?>
+ src="<?php echo JS_PATH;?>
+iscroll.js"><?php echo '</script'; ?>
+>
 
-    <link rel="stylesheet" href="{CSS_PATH}zcy-pay.css">
+    <link rel="stylesheet" href="<?php echo CSS_PATH;?>
+zcy-pay.css">
 
 </head>
 <style>
@@ -40,7 +71,8 @@
             <div class="line"></div>
         </div>
         <div class="mid">
-            <img src="{IMG_PATH}zcy-img/1.png" alt="">
+            <img src="<?php echo IMG_PATH;?>
+zcy-img/1.png" alt="">
             <div class="money">
                 <!--<div class="youhui">-->
                     <!--<p class="five">-5.00</p>-->
@@ -52,28 +84,35 @@
 
         <div class="wuliu">
             <div class="ll">
-                <img src="{IMG_PATH}zcy-img/7.jpg" alt="">
+                <img src="<?php echo IMG_PATH;?>
+zcy-img/7.jpg" alt="">
             </div>
             <ul class="rr">
                 <li>
-                    <img src="{IMG_PATH}zcy-img/2.png" style="margin-top: -.25rem">
+                    <img src="<?php echo IMG_PATH;?>
+zcy-img/2.png" style="margin-top: -.25rem">
                     <p class="numD">2346 89753 8965432</p>
                 </li>
-                <li><img src="{IMG_PATH}zcy-img/3.png" alt=""></li>
-                <li><img src="{IMG_PATH}zcy-img/4.png" alt=""></li>
+                <li><img src="<?php echo IMG_PATH;?>
+zcy-img/3.png" alt=""></li>
+                <li><img src="<?php echo IMG_PATH;?>
+zcy-img/4.png" alt=""></li>
                 <li>
-                    <img src="{IMG_PATH}zcy-img/5.png" alt="">
+                    <img src="<?php echo IMG_PATH;?>
+zcy-img/5.png" alt="">
                     <p class="DDD">山西省太原市小店区皇后大道东里皇后大道西</p>
                 </li>
             </ul>
         </div>
         <div class="buy">
-            <a href="index.php?m=index&f=pay&a=bank"><img src="{IMG_PATH}zcy-img/6.png" alt=""></a>
+            <a href="index.php?m=index&f=pay&a=bank"><img src="<?php echo IMG_PATH;?>
+zcy-img/6.png" alt=""></a>
         </div>
     </div>
 </div>
 
-<script>
+<?php echo '<script'; ?>
+>
     window.onload=function () {
         var myScroll = new IScroll('#wrapper', {
             mouseWheel: true,
@@ -81,6 +120,9 @@
             click:true,
         });
     }
-</script>
+<?php echo '</script'; ?>
+>
 </body>
 </html>
+<?php }
+}
