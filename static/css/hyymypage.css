@@ -49,6 +49,16 @@ header .photo{
     top:2.4rem;
     z-index: 1;
 }
+header .photono{
+    position: absolute;
+    height:2.14rem;
+    width:100%;
+    background-image: url("../img/hyyphoto.png");
+    background-size:contain;
+    left:0;
+    top:4rem;
+    z-index: 1;
+}
 header .jianjie{
     position: absolute;
     left:0;
@@ -73,7 +83,21 @@ header .photo .position{
     border-radius: 50%;
     overflow: hidden;
 }
+header .photono .position{
+    position: absolute;
+    left:50%;
+    margin-left:-0.89rem;
+    top:0.23rem;
+    height:1.76rem;
+    width:1.76rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
 header .photo .position img{
+    height:100%;
+}
+header .photono .position img{
     height:100%;
 }
 .bodys{
@@ -164,4 +188,14 @@ footer div p{
     color:#fff;
     margin:-0.05rem auto;
     font-size:0.2rem;
+}
+.kuailogin{
+    height:20px;
+    width:2rem;
+    position: absolute;
+    left:40%;
+    top:2.1rem;
+    color:#FE464E;
+    z-index: 3;
+    font-size: 0.2rem;
 }

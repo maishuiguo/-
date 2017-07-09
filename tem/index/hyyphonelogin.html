@@ -9,21 +9,21 @@
     <meta name="x5-fullscreen" content="true" />
     <meta name="full-screen" content="yes">
     <meta name="format-detection" content="telephone=no, email=no" />
-    <link rel="stylesheet" href="../../static/css/common.css">
-    <script src="../../static/js/common.js"></script>
-    <link rel="stylesheet" href="../../static/css/hyyphonelogin.css">
-    <script src="../../static/js/zepto.js"></script>
-    <script src="../../static/js/touch.min.js"></script>
+    <link rel="stylesheet" href="{CSS_PATH}common.css">
+    <script src="{JS_PATH}common.js"></script>
+    <link rel="stylesheet" href="{CSS_PATH}hyyphonelogin.css">
+    <script src="{JS_PATH}zepto.js"></script>
+    <script src="{JS_PATH}touch.min.js"></script>
 </head>
 <body>
     <nav>
         <a href="hyylogininfo.html">&lt;</a>
     </nav>
     <div class="login">
-        <img src="../../static/img/hyylogo.png" alt="">
+        <img src="{IMG_PATH}hyylogo.png" alt="">
     </div>
     <div class="loginword">
-        <img src="../../static/img/hyyname.png" alt="">
+        <img src="{IMG_PATH}hyyname.png" alt="">
     </div>
     <div class="input">
         <div class="label">
@@ -49,11 +49,6 @@
             $(".login").css("margin-top","0.2rem");
             $(".loginword").css("display","none");
             $(".loginbtn").css("margin-top","0.1rem");
-        })
-        $("input").blur(function () {
-            $(".login").css("margin-top","1rem");
-            $(".loginword").css("display","block");
-            $(".loginbtn").css("margin-top","0.2rem");
         })
         $(".tap").click(function () {
             $(this).toggleClass("back");

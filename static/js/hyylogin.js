@@ -11,11 +11,6 @@ $(document).ready(function () {
         $(".loginword").css("display","none");
         $(".loginbtn").css("margin-top","0.1rem");
     })
-    $("input").blur(function () {
-        $(".login").css("margin-top","0.2rem");
-        $(".loginword").css("display","block");
-        $(".loginbtn").css("margin-top","0.2rem");
-    })
 
 
     $("#Form").validate({

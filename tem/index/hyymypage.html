@@ -24,6 +24,16 @@
         <div class="zhuti">
             <header>
                 <div class="back"></div>
+                {if $login==null}
+                <div class="photono">
+                    <a href="index.php?m=index&f=login&a=info">
+                        <div class="position">
+                            <img src="{IMG_PATH}hyymoren.png" alt="">
+                        </div>
+                        <p class="kuailogin">快点我登陆吧</p>
+                    </a>
+                </div>
+                {else}
                 <div class="photo">
                     <div class="position">
                         <img src="{IMG_PATH}hyytouxiang.png" alt="">
@@ -35,6 +45,7 @@
                         <p>良驹宝马，温酒煮茶，月落可归家</p>
                     </div>
                 </div>
+                    {/if}
             </header>
             <ul class="bodys">
                 <li>
