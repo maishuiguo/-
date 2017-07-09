@@ -38,6 +38,7 @@ body{
     border-radius: .1rem;
     margin:1.27rem auto 0;
     position: relative;
+    padding-top: .2rem;
 }
 .line{
     width:100%;
@@ -54,17 +55,17 @@ body{
     height: .5rem;
 }
 /*.youhui{*/
-    /*display: inline-block;*/
-    /*overflow: hidden;*/
+/*display: inline-block;*/
+/*overflow: hidden;*/
 
 /*}*/
 /*.five{*/
-    /*font-size: .2rem;color:#FC1939;*/
+/*font-size: .2rem;color:#FC1939;*/
 /*}*/
 /*.uuu{*/
-    /*font-size: .3rem;color:#FFF;*/
-    /*background: #FFC21C;*/
-    /*padding:.05rem .2rem;border-radius: .4rem;*/
+/*font-size: .3rem;color:#FFF;*/
+/*background: #FFC21C;*/
+/*padding:.05rem .2rem;border-radius: .4rem;*/
 /*}*/
 .eight{
     font-size: .9rem;color:#FC1939;font-weight: 600;
@@ -108,17 +109,80 @@ body{
     font-size: .25rem;
     color:#959595;
 }
-
-
-
-
-
-
-
 .buy{
     background: #1EAA4C;text-align: center;
     margin-top: .2rem;
 }
 .buy>a>img{
     height: .6rem;
+}
+
+
+.list{
+    overflow: hidden;
+    width: 100%;height:1.4rem;
+    border-bottom: .01rem solid #DCDCDC;
+}
+.zhong{
+    float: left;
+    margin-top: .4rem;
+}
+.one,.three{
+    display: flex;
+    align-items: center;
+}
+.one>span{
+    font-size: .2rem;
+}
+.one>span:first-child{
+    font-weight: 600;
+}
+.one>img{
+    width: .7rem;
+    margin-left: .1rem;
+}
+.two{
+    width:1.9rem;
+    height: .02rem;
+    background: #DCDCDC;
+}
+.three{
+    overflow: hidden;
+}
+.three>span{
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    font-size: .15rem;
+    margin-top: .1rem;
+}
+.three>span:first-child{
+    background:#C6C6C6 ;
+    padding:0  .14rem;
+    border-radius: .4rem;
+    color: #fff;
+}
+.three>span:nth-child(2){
+    font-weight: 600;
+    margin:.1rem .1rem 0;
+}
+.three>span:nth-child(4){
+    width: .15rem;
+    height: .16rem;
+    background: #FC1939;
+    border-radius:.4rem;
+    margin-left: .25rem;
+}
+.three>span:nth-child(5){
+    margin-left: .1rem;
+}
+.xia{
+    margin-top: .4rem;
+}
+.xia>p{
+    text-align: center;
+    color:#FC1939;
+    font-weight: 600;
+    font-size: .2rem;
+}
+.xia>p:last-child{
+    font-size: .3rem;
 }
