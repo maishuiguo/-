@@ -4,7 +4,7 @@
             this.mes=[];
             this.obj;
             this.type=['image/jpeg','image/png','image/gif'];
-            this.size=1024*1024*5;
+            this.size=1024*1024*10;
             this.data;
             //外面大盒子的css
             this.divstyle={width:500,height:'auto',border:'1px solid #ccc',overflow: 'hidden',position:'relative'};
@@ -28,7 +28,7 @@
                 this.createThumb(params.P);
                 //创建图片的容器
                 this.createList(params.Imgdiv);
-            });
+            })
 
         }
 

@@ -61,7 +61,7 @@ header .yzf-font1 .yzf-font2{
 
 .swiper{
     width:100%;
-    height:9rem;
+    height:12rem;
 }
 .swiper-wrapper{
     width:100%;
@@ -76,7 +76,7 @@ header .yzf-font1 .yzf-font2{
     width:5.54rem;
     height:1.25rem;
     float:left;
-    margin:4.5rem auto auto 0.3rem;
+    margin:6.5rem auto auto 1.2rem;
     color:#fff;
 }
 .yzf-title h3{
@@ -86,10 +86,12 @@ header .yzf-font1 .yzf-font2{
 .yzf-title p.yzf-one{
     font-size:0.24rem;
     font-family:"微软雅黑";
+    color:#fff;
 }
 .yzf-title p.yzf-two{
     font-size:0.18rem;
     font-family:"微软雅黑";
+    color:#fff;
 }
 .yzf-title .yzf-img{
     width:2.58rem;
@@ -107,7 +109,7 @@ header .yzf-font1 .yzf-font2{
     background-image:url("../../static/img/dapeibj_03.png");
     background-size:100%;
     float:left;
-    margin:0.1rem auto auto 0.2rem;
+    margin:0.1rem auto auto 0.9rem;
     color:#000;
 }
 .yzf-con h3{
@@ -125,8 +127,8 @@ header .yzf-font1 .yzf-font2{
     justify-content: space-around;
     height:auto;
     position:absolute;
-    top:6.65rem;
-    right:1rem;
+    top:8.7rem;
+    right:1.3rem;
 }
 .yzf-con .yzf-xing span{
     display: block;
