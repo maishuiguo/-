@@ -7,6 +7,8 @@
  */
 class mypage extends indexMain{
     function add(){
+        $login=$this->session->get("hyylogin");
+        $this->smarty->assign("login",$login);
         $this->smarty->display("hyymypage.html");
     }
 }

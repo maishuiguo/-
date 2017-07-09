@@ -17,7 +17,7 @@
 </head>
 <body>
     <nav>
-        <a href="hyylogininfo.html">&lt;</a>
+        <a href="javascript" onclick="history.go(-1)">&lt;</a>
     </nav>
     <div class="input">
         <div class="label">
@@ -41,14 +41,9 @@
         <div class="label">
             <span class="mi">验证码</span> <span class="first">YANXHENG</span>
             <input class="pass" type="password" placeholder="请输入验证码">
-            <img src="{IMG_PATH}1.png" alt="" style="width: 0.99rem">
+            <img src="{SELF_PATH}?m=index&f=login&a=code" alt="" onclick=this.src="{SELF_PATH}?m=index&f=login&a=code&c="+Math.random() style="width: 1.4rem">
         </div>
     </div>
     <div class="loginbtn">注册</div>
 </body>
 </html>
-<script>
-    $(function () {
-
-    })
-</script>
