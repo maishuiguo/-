@@ -24,3 +24,32 @@ header>.kuang>input{
 	width:5.52rem;
 	height:3.48rem;
 }
+.tu>span{
+	width:0.5rem;
+	height:0.5rem;
+	background: #fff;
+	border-radius: 50%;
+	font-size: 0.4rem;
+	text-align: center;
+	margin-top: 0.8rem;
+	margin-left: 4.8rem;
+}
+.tu>p{
+	color:#FB434B;
+	font-size: 0.5rem;
+	margin-top:0.8rem;
+	margin-left:0.4rem;
+}
+.tu>a{
+	float:left;
+	font-size:0.3rem;
+	color:#7D7D7D;
+	margin-left: 0.9rem;
+}
+.tu>a:last-child{
+	margin-left: 1rem;
+}
+.tu>a>span:last-child{
+	font-size: 0.2rem;
+	color:#999;
+}
