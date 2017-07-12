@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="{CSS_PATH}css/swiper.min.css" />
+		<link rel="stylesheet" href="{CSS_PATH}css/zjl-common.css" />
+		<link rel="stylesheet" href="{CSS_PATH}css/zjl-spy.css" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="x5-orientation" content="portrait | landscape" />
+	    <meta name="screen-orientation" content="portrait">
+	    <meta name="x5-fullscreen" content="true" />
+	    <meta name="full-screen" content="yes">
+	    <meta name="format-detection" content="telephone=no, email=no" />
+		<script src="{JS_PATH}js/jquery.min.js"></script>
+   		<script src="{JS_PATH}js/swiper.min.js"></script>		
+	</head>
+	<body>
+		<div class="swiper-container">
+     		<div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<img src="{IMG_PATH}img/zjl-spy1.png" alt="" />
+	            	<a href="index.php" class='jump'>跳过</a>
+	            </div>
+	            <div class="swiper-slide"><img src="{IMG_PATH}img/zjl-spy2.png" alt="" /></div>
+	            <div class="swiper-slide">
+	            	<img src="{IMG_PATH}img/zjl-spy3.png" alt="" />
+	            	<a href="index.php" class='ty'>立即体验</a>
+	            </div>      
+   		    </div>
+	        <div class="swiper-pagination" class='swiper'></div>	       
+		</div>
+		<script>
+		    var swiper = new Swiper('.swiper-container', {
+		        pagination: '.swiper-pagination',
+		        paginationClickable: true
+		    });
+	    </script>
+    		
+	</body>
+</html>
