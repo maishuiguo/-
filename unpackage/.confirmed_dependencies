@@ -1,0 +1,16 @@
+{
+  "tem/index/zjl-spy.html": {
+    "resources": [
+      "static/js/jquery.min.js",
+      "static/css/zjl-common.css",
+      "static/css/zjl-spy.css",
+      "static/css/swiper.min.css",
+      "static/js/swiper.min.js",
+      "static/img/zjl-spy3.png",
+      "static/img/zjl-spy2.png",
+      "static/img/zjl-spy1.png",
+      "index.php"
+    ],
+    "refer": []
+  }
+}

@@ -26,11 +26,11 @@ html,body{
 			height:1.2rem;
 			border-radius: 0.6rem;
 			text-align: center;
-			line-height: 1rem;
+			line-height: 1.2rem;
 			border:0.1rem solid #fff;
 			position:absolute;
 			right:1rem;
-			top:2rem;
+			top:1.5rem;
 			z-index: 1;
 		}
 		.ty{
@@ -43,7 +43,7 @@ html,body{
 			border:0.1rem solid #fff;
 			position:absolute;
 			left:8.5rem;
-			top:37rem;
+			top:35rem;
 			z-index: 1;
 			
 		}
