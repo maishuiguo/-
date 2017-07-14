@@ -67,10 +67,8 @@ button{
     width: 10rem;
     height: 1rem;
 }
-.add{
+#img{
     width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
 }
 .box{
     position: relative;
